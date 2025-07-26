@@ -1,6 +1,6 @@
 import sessionData from '../data/sessionData'; // Adjust path if needed
 
-const API_URL = 'http://127.0.0.1:5000'; 
+const API_URL = 'https://sip-1-uple.onrender.com/'; 
 
 export const questions = {
   Q1: "Was the session engaging?",
