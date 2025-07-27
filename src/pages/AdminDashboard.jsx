@@ -30,7 +30,7 @@ const departmentColors = {
 export const AdminDashboard = () => {
   const navigate = useNavigate();
   const [feedbackData, setFeedbackData] = useState([]);
-  const [filters, setFilters] = useState({ day: 'ALL' });
+  const [filters, setFilters] = useState({ day: 'ALL', dept: 'ALL' });
 
   useEffect(() => {
     const fetchData = async () => {
@@ -54,9 +54,11 @@ export const AdminDashboard = () => {
     navigate('/admin-login');
   };
 
-  const filteredData = feedbackData.filter(entry =>
-    filters.day === 'ALL' || entry.day === filters.day
-  );
+  const filteredData = feedbackData.filter(entry => {
+    const dayMatch = filters.day === 'ALL' || entry.day === filters.day;
+    const deptMatch = filters.dept === 'ALL' || entry.dept === filters.dept;
+    return dayMatch && deptMatch;
+  });
 
   // Grouped by day + time
   const groupedData = filteredData.reduce((acc, entry) => {
@@ -100,10 +102,17 @@ export const AdminDashboard = () => {
         {/* Filters */}
         <div className="bg-white rounded-lg shadow-md p-6 mb-8 border border-gray-200 flex flex-wrap gap-6 items-center">
           <label className="font-semibold mr-2 text-gray-700">Day:</label>
-          <select id="day" onChange={handleFilterChange} className="p-2 border rounded-md text-sm cursor-pointer">
+          <select id="day" onChange={handleFilterChange} value={filters.day} className="p-2 border rounded-md text-sm cursor-pointer">
             <option value="ALL">All Days</option>
             {[...Array(15)].map((_, i) => (
               <option key={i} value={`Day ${i + 1}`}>Day {i + 1}</option>
+            ))}
+          </select>
+          <label className="font-semibold mr-2 text-gray-700">Department:</label>
+          <select id="dept" onChange={handleFilterChange} value={filters.dept} className="p-2 border rounded-md text-sm cursor-pointer">
+            <option value="ALL">All Departments</option>
+            {Object.keys(departmentColors).map((dept) => (
+              <option key={dept} value={dept}>{dept}</option>
             ))}
           </select>
         </div>
