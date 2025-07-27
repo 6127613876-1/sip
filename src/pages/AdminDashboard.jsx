@@ -35,7 +35,7 @@ export const AdminDashboard = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch('http://localhost:5000/api/feedback');
+        const res = await fetch('https://sip-1-uple.onrender.com/api/feedback');
         const data = await res.json();
         setFeedbackData(data);
       } catch (error) {
