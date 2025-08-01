@@ -68,26 +68,5 @@ def submit_feedback():
     except Exception as e:
         return jsonify({"error": "Could not save feedback", "details": str(e)}), 500
 
-# --- DELETE Route (Delete by name & dept) ---
-@app.route('/api/feedback', methods=['DELETE'])
-def delete_feedback():
-    """Deletes feedback based on name and department."""
-    try:
-        name = request.args.get('name')
-        dept = request.args.get('dept')
-
-        if not name or not dept:
-            return jsonify({"error": "name and dept query params required"}), 400
-
-        query = {"name": name, "dept": dept}
-        result = collection.delete_many(query)
-
-        return jsonify({
-            "status": "success",
-            "deleted_count": result.deleted_count
-        })
-    except Exception as e:
-        return jsonify({"error": "Could not delete feedback", "details": str(e)}), 500
-
 if __name__ == '__main__':
     app.run(port=5000, debug=True)
