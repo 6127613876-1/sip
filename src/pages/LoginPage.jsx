@@ -60,9 +60,6 @@ export const LoginPage = () => {
           </select>
           <button className="w-full bg-yellow-500 text-white font-bold p-3 rounded-lg cursor-pointer hover:bg-yellow-600 transition-colors" type="submit">Login</button>
         </form>
-        <p className="mt-6 text-center">
-          <Link to="/admin-login" className="text-red-700 font-semibold hover:underline cursor-pointer">Admin? Click here to login</Link>
-        </p>
       </div>
     </div>
   );
