@@ -3,7 +3,6 @@ from flask_cors import CORS
 from pymongo import MongoClient
 from bson import ObjectId
 from datetime import datetime
-import json
 import os
 from dotenv import load_dotenv
 
@@ -13,7 +12,7 @@ app = Flask(__name__)
 CORS(app)
 
 # --- MongoDB Connection ---
-MONGO_URI = os.getenv("MONGO_URI") 
+MONGO_URI = os.getenv("MONGO_URI")
 client = MongoClient(MONGO_URI)
 db = client['sip_feedback']
 collection = db['feedbacks']
@@ -25,23 +24,30 @@ def serialize_doc(doc):
         doc['_id'] = str(doc['_id'])
     return doc
 
-# --- API Endpoints ---
-
+# --- GET Route (with Filtering Support) ---
 @app.route('/api/feedback', methods=['GET'])
 def get_feedback():
-    """This endpoint returns all feedback from the MongoDB collection."""
+    """Returns feedback with optional filtering by name and dept."""
     try:
-        all_feedback = list(collection.find({}))
-        serialized_feedback = [serialize_doc(doc) for doc in all_feedback]
-        return jsonify(serialized_feedback)
+        name = request.args.get('name')
+        dept = request.args.get('dept')
+
+        query = {}
+        if name:
+            query['name'] = name
+        if dept:
+            query['dept'] = dept
+
+        results = list(collection.find(query))
+        serialized = [serialize_doc(doc) for doc in results]
+        return jsonify(serialized)
     except Exception as e:
-        print(f"An error occurred: {e}")
         return jsonify({"error": "Could not retrieve feedback", "details": str(e)}), 500
 
-
+# --- POST Route (Submit Feedback) ---
 @app.route('/api/feedback', methods=['POST'])
 def submit_feedback():
-    """This endpoint receives new feedback and saves it to MongoDB."""
+    """Saves new feedback to MongoDB."""
     try:
         new_feedback = request.get_json()
         if not new_feedback:
@@ -52,9 +58,7 @@ def submit_feedback():
             if field not in new_feedback:
                 return jsonify({"error": f"Missing field: {field}"}), 400
 
-        # Add timestamp
         new_feedback["submitted_at"] = datetime.utcnow()
-
         result = collection.insert_one(new_feedback)
         return jsonify({
             "status": "success",
@@ -62,8 +66,28 @@ def submit_feedback():
             "inserted_id": str(result.inserted_id)
         })
     except Exception as e:
-        print(f"An error occurred: {e}")
         return jsonify({"error": "Could not save feedback", "details": str(e)}), 500
+
+# --- DELETE Route (Delete by name & dept) ---
+@app.route('/api/feedback', methods=['DELETE'])
+def delete_feedback():
+    """Deletes feedback based on name and department."""
+    try:
+        name = request.args.get('name')
+        dept = request.args.get('dept')
+
+        if not name or not dept:
+            return jsonify({"error": "name and dept query params required"}), 400
+
+        query = {"name": name, "dept": dept}
+        result = collection.delete_many(query)
+
+        return jsonify({
+            "status": "success",
+            "deleted_count": result.deleted_count
+        })
+    except Exception as e:
+        return jsonify({"error": "Could not delete feedback", "details": str(e)}), 500
 
 if __name__ == '__main__':
     app.run(port=5000, debug=True)
