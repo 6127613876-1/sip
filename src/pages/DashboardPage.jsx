@@ -10,6 +10,7 @@ export const DashboardPage = () => {
   const [user, setUser] = useState(null);
   const [sessions, setSessions] = useState([]);
   const [feedback, setFeedback] = useState({});
+  const [dayOptions, setDayOptions] = useState([]);
   const [submittedSessions, setSubmittedSessions] = useState(() => {
     const saved = localStorage.getItem("submittedFeedback") || "{}";
     return JSON.parse(saved);
@@ -27,11 +28,21 @@ export const DashboardPage = () => {
   }, [navigate]);
 
   useEffect(() => {
-    if (user) {
+  if (user?.dept) {
+    const options = api.getAvailableDays(user.dept);
+    console.log("Available day options:", options);
+    setDayOptions(options);
+    console.log("Current department:", user?.dept);
+
+  }
+}, [user?.dept]);
+
+  useEffect(() => {
+    if (user?.dept && user?.day) {
       const userSessions = api.getSessionData(user.dept, user.day);
       setSessions(userSessions);
     }
-  }, [user]);
+  }, [user?.dept, user?.day]);
 
   const handleDayChange = (e) => {
     const newDay = e.target.value;
@@ -60,8 +71,6 @@ export const DashboardPage = () => {
 
     if (submittedSessions[sessionKey]) {
       toast.info("You have already submitted feedback for this session.");
-      toast.success("Feedback submitted!");
-      toast.error("Error occurred");
       return;
     }
 
@@ -85,16 +94,9 @@ export const DashboardPage = () => {
     if (result.status === "success") {
       toast.success("Feedback submitted successfully!");
 
-      // Disable button and mark session as submitted
       const updated = { ...submittedSessions, [sessionKey]: true };
       setSubmittedSessions(updated);
       localStorage.setItem("submittedFeedback", JSON.stringify(updated));
-
-      const button = document.getElementById(`submit-btn-${sessionIndex}`);
-      if (button) {
-        button.disabled = true;
-        button.textContent = "Submitted";
-      }
     } else {
       toast.error("Failed to submit feedback. Please try again.");
     }
@@ -113,17 +115,29 @@ export const DashboardPage = () => {
         />
       </div>
       <h1 className="text-3xl sm:text-4xl font-bold text-center text-gray-800 mb-8">First Year SIP - Feedback Portal</h1>
+
       <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-2xl p-6 sm:p-8">
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
           <h2 className="text-2xl font-semibold text-gray-700">Welcome {user.name} ({user.dept})</h2>
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-2">
               <label htmlFor="day-select" className="font-semibold">Viewing Day:</label>
-              <select id="day-select" value={user.day} onChange={handleDayChange} className="p-2 cursor-pointer border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400">
-                {[...Array(15)].map((_, i) => <option key={i} value={`Day ${i + 1}`}>Day {i + 1}</option>)}
+              <select
+                value={user.day}
+                onChange={handleDayChange}
+                className="p-2 border rounded"
+              >
+                {api.getAvailableDays(user.dept).map((opt, i) => (
+                  <option key={i} value={opt.value}>
+                    {opt.label}
+                  </option>
+                ))}
               </select>
             </div>
-            <button onClick={handleLogout} className="bg-red-500 text-white font-bold py-2 px-4 rounded-lg cursor-pointer hover:bg-red-600 transition-colors">
+            <button
+              onClick={handleLogout}
+              className="bg-red-500 text-white font-bold py-2 px-4 rounded-lg cursor-pointer hover:bg-red-600 transition-colors"
+            >
               Logout
             </button>
           </div>
@@ -136,12 +150,33 @@ export const DashboardPage = () => {
             return (
               <div key={`${user.day}-${index}`} className="mb-8 p-6 border border-gray-200 rounded-lg bg-gray-50">
                 <h3 className="text-xl font-bold text-gray-800 mb-4">{session.topic} ({session.time})</h3>
-                <textarea className="w-full p-3 mb-3 border rounded-md" placeholder={`1. ${questions.Q1}`} onChange={e => handleFeedbackChange(index, 0, e.target.value)} disabled={isSubmitted}></textarea>
-                <textarea className="w-full p-3 mb-3 border rounded-md" placeholder={`2. ${questions.Q2}`} onChange={e => handleFeedbackChange(index, 1, e.target.value)} disabled={isSubmitted}></textarea>
-                <textarea className="w-full p-3 mb-4 border rounded-md" placeholder={`3. ${questions.Q3}`} onChange={e => handleFeedbackChange(index, 2, e.target.value)} disabled={isSubmitted}></textarea>
+                <textarea
+                  className="w-full p-3 mb-3 border rounded-md"
+                  placeholder={`1. ${questions.Q1}`}
+                  onChange={e => handleFeedbackChange(index, 0, e.target.value)}
+                  disabled={isSubmitted}
+                />
+                <textarea
+                  className="w-full p-3 mb-3 border rounded-md"
+                  placeholder={`2. ${questions.Q2}`}
+                  onChange={e => handleFeedbackChange(index, 1, e.target.value)}
+                  disabled={isSubmitted}
+                />
+                <textarea
+                  className="w-full p-3 mb-4 border rounded-md"
+                  placeholder={`3. ${questions.Q3}`}
+                  onChange={e => handleFeedbackChange(index, 2, e.target.value)}
+                  disabled={isSubmitted}
+                />
                 <div className="mb-6">
-                  <label className="block font-semibold text-gray-700 mb-2">4. {questions.Q4}:</label>
-                  <StarRating rating={feedback[`${index}-rating`] || 0} setRating={(rating) => handleRatingChange(index, rating)} disabled={isSubmitted} />
+                  <label className="block font-semibold text-gray-700 mb-2">
+                    4. {questions.Q4}:
+                  </label>
+                  <StarRating
+                    rating={feedback[`${index}-rating`] || 0}
+                    setRating={rating => handleRatingChange(index, rating)}
+                    disabled={isSubmitted}
+                  />
                 </div>
                 <button
                   id={`submit-btn-${index}`}

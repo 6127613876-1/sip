@@ -44,15 +44,15 @@ export const LoginPage = () => {
           <input className="w-full p-3 mb-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400" type="text" id="reg" placeholder="Register Number" required onChange={handleChange} />
           <select className="w-full p-3 mb-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400" id="dept" required onChange={handleChange} value={formData.dept}>
             <option value="">Select Department</option>
-            <option value="CSE">CSE</option>
-            <option value="IT">IT</option>
-            <option value="ECE">ECE</option>
-            <option value="EEE">EEE</option>
-            <option value="MECH">MECH</option>
-            <option value="AI-ML">AIML</option>
-            <option value="MECHATRONICS">MECHATRONICS</option>
-            <option value="CSBS">CSBS</option>
-            <option value="CIVIL">CIVIL</option>
+            <option value="Computer Science">CSE</option>
+            <option value="Information Technology">IT</option>
+            <option value="Electronics and Communication">ECE</option>
+            <option value="Electrical and Electronics">EEE</option>
+            <option value="Mechanical">MECH</option>
+            <option value="Artificial Intelligence And Machine Learning">AIML</option>
+            <option value="Mechatronics">MECHATRONICS</option>
+            <option value="Computer Science and Business Systems">CSBS</option>
+            <option value="Civil">CIVIL</option>
           </select>
           <select className="w-full p-3 mb-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400" id="day" required onChange={handleChange} value={formData.day}>
             <option value="">Select Day</option>

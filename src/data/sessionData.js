@@ -1,1922 +1,1943 @@
 const sessionData =  {
-  "CSE": {
-    "Day 1": [
+  "Artificial Intelligence And Machine Learning": {
+    "11.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Institutional Leadership Talks\nPrincipal/Registrar/COE/Deans\nVenue: KK Auditorium"
+        "topic": "Student Induction Programme - Inauguration",
+        "speakers": "Mr. K. Hari Thiagarajan (Chairman), Dr. L. Ashok Kumar (Principal), Mr. Charles Godwin (Chief Guest)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Institutional Leadership Talks\nPrincipal/Registrar/COE/Deans\nVenue: KK Auditorium"
+        "topic": "Chief Guest Address",
+        "speakers": "Mr. Charles Godwin (HR Leader & Public Speaker, Zoho Corporation)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Campus Tour"
+        "topic": "Institutional Leadership Talks",
+        "speakers": "Principal, Registrar, COE, Deans",
+        "venue": "KK Auditorium"
       }
     ],
-    "Day 2": [
+    "12.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -1\nVenue: KK Auditorium"
+        "topic": "HoD Address to Students",
+        "venue": "Department"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lecture -2\nVenue: KS Auditorium"
+        "topic": "Academic Regulations/Teaching Learning Process",
+        "venue": "Department"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Workshop\nVenue: Multipurpose Hall"
+        "topic": "Club activities/Association",
+        "venue": "Department"
       }
     ],
-    "Day 3": [
+    "13.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -3\nVenue: KK Auditorium"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "NSS/NCC/YRC\nVenue: B Halls"
+        "topic": "Kitchen Physics",
+        "speakers": "Dr. M. Mahendran (Professor & Head of Physics)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lecture -5\nVenue: KK Auditorium"
+        "topic": "Real World Engineering through Mathematics",
+        "speakers": "Dr. S. Jeyabharathi (Professor & Head of Mathematics)",
+        "venue": "KK Auditorium"
       }
     ],
-    "Day 4": [
+    "14.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -7\nVenue: KK Auditorium"
+        "topic": "Diagnostic Test - English/Library Session",
+        "venue": "Lab/Gmeet"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Tele Counselling Cell",
+        "speakers": "Mrs. Muhil (Counsellor, Psychologist)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lecture -11\nVenue: KK Auditorium"
+        "topic": "Waste Management - Thooimai Mission Awareness Programme",
+        "speakers": "Dr. A. Ramalinga Chandra Sekar (Assistant Professor in Chemistry)",
+        "venue": "KK Auditorium"
       }
     ],
-    "Day 5": [
+    "18.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -4\nVenue: KS Auditorium"
+        "topic": "Yoga - Art of Living",
+        "venue": "Indoor Stadium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lecture -9\nVenue: KK Auditorium"
+        "topic": "Sports",
+        "speakers": "Dr. M Arun Prem (Physical Education Director)",
+        "venue": "Ground"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Sports\nVenue: Ground"
+        "topic": "AI & Beyond: Computational Intelligence for Young Minds",
+        "speakers": "Dr. P. Karthikeyan & Dr. A. M. Abirami (Professors in IT)",
+        "venue": "KK Auditorium"
       }
     ],
-    "Day 6": [
+    "19.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -13\nVenue: KK Auditorium"
+        "topic": "Scientific Concepts in Tamil Literature",
+        "speakers": "Dr. G. Balaji (Dean - Students)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lecture -15\nVenue: KK Auditorium"
+        "topic": "Foreign Language - An Insight",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lecture -17\nVenue: KK Auditorium"
+        "topic": "Explore TCE",
+        "speakers": "Ar. G. Vaishali (Assistant Professor in Architecture)",
+        "venue": "TCE Campus"
       }
     ],
-    "Day 7": [
+    "20.08.2025": [
       {
-        "time": "10:00-11:30",
-        "topic": "Lecture -6\nVenue: KS Auditorium"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lecture -8\nVenue: KS Auditorium"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "time": "10:00-04:00",
+        "topic": "Keeladi - Local Visit",
+        "venue": "Keeladi"
       }
     ],
-    "Day 8": [
+    "21.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -18\nVenue: KK Auditorium"
+        "topic": "Awareness on Anti-Drug, Anti-Ragging, Cyber Crime",
+        "speakers": "Government Officials Team",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Women Empowerment Cell/Internal Compliance Cell",
+        "speakers": "Ms. S. Selva Gomathy (Advocate, Human Rights Activist)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
       }
     ],
-    "Day 9": [
+    "22.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -20\nVenue: KK Auditorium"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Science for Engineers: Inspire & Innovate",
+        "speakers": "Dr. M. Kottaisamy (Professor & Head of Chemistry)",
+        "venue": "KK Auditorium"
       }
     ],
-    "Day 10": [
+    "25.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Keeladi – Local Visit"
+        "topic": "Diagnostic Test - Mathematics",
+        "venue": "Lab"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Keeladi – Local Visit"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Keeladi – Local Visit"
+        "topic": "NSS/NCC/YRC/Sports/Rotaract",
+        "speakers": "Dr. S. Prasanna (Associate Dean - ECA)",
+        "venue": "KS Auditorium"
       }
     ],
-    "Day 11": [
+    "26.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "HoD Address to Students\n(Department Activity)"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Tutor Ward System\n(Department Activity)"
+        "topic": "Language Matters",
+        "speakers": "Dr. A. Tamilselvi (Professor in English)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "UMIS Registration\n(Department Activity)"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
       }
     ],
-    "Day 12": [
+    "28.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "தமிழ் மரபில் கல்வியும் ஞானமும்",
+        "speakers": "கு. ஞானசாம்பந்தன்",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Technical Club Registration",
+        "venue": "B Halls"
       }
     ],
-    "Day 13": [
+    "29.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "CAMU Registration\n(Department Activity)"
+        "topic": "TRIZ",
+        "speakers": "Dr. S. Baskar (Dean - Academics and Accreditation)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Creative Arts",
+        "venue": "Multipurpose Hall, Architecture"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      }
-    ],
-    "Day 14": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Spotlight - Cultural Performances",
+        "venue": "Open Auditorium"
       },
       {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      }
-    ],
-    "Day 15": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Feedback\nVenue: KK Auditorium"
-      }
-    ]
-  }
-,
-"AI-ML": {
-    "Day 1": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Institutional Leadership Talks\nPrincipal/Registrar/COE/Deans\nVenue: KK Auditorium"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Institutional Leadership Talks\nPrincipal/Registrar/COE/Deans\nVenue: KK Auditorium"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Campus Tour"
-      }
-    ],
-    "Day 2": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lecture -1\nVenue: KK Auditorium"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lecture -2\nVenue: KS Auditorium"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Workshop\nVenue: Multipurpose Hall"
-      }
-    ],
-    "Day 3": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lecture -3\nVenue: KK Auditorium"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "NSS/NCC/YRC\nVenue: B Halls"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lecture -5\nVenue: KK Auditorium"
-      }
-    ],
-    "Day 4": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lecture -7\nVenue: KK Auditorium"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lecture -11\nVenue: KK Auditorium"
-      }
-    ],
-    "Day 5": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lecture -4\nVenue: KS Auditorium"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lecture -9\nVenue: KK Auditorium"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Sports\nVenue: Ground"
-      }
-    ],
-    "Day 6": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lecture -13\nVenue: KK Auditorium"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lecture -15\nVenue: KK Auditorium"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lecture -17\nVenue: KK Auditorium"
-      }
-    ],
-    "Day 7": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lecture -6\nVenue: KS Auditorium"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lecture -8\nVenue: KS Auditorium"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      }
-    ],
-    "Day 8": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lecture -18\nVenue: KK Auditorium"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      }
-    ],
-    "Day 9": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lecture -20\nVenue: KK Auditorium"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      }
-    ],
-    "Day 10": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Keeladi – Local Visit"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Keeladi – Local Visit"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Keeladi – Local Visit"
-      }
-    ],
-    "Day 11": [
-      {
-        "time": "10:00-11:30",
-        "topic": "HoD Address to Students\n(Department Activity)"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Tutor Ward System\n(Department Activity)"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "UMIS Registration\n(Department Activity)"
-      }
-    ],
-    "Day 12": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      }
-    ],
-    "Day 13": [
-      {
-        "time": "10:00-11:30",
-        "topic": "CAMU Registration\n(Department Activity)"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      }
-    ],
-    "Day 14": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      }
-    ],
-    "Day 15": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Feedback\nVenue: KK Auditorium"
+        "time": "04:00-04:45",
+        "topic": "Feedback Session",
+        "venue": "Open Auditorium"
       }
     ]
-  }
-,
-  "IT": {
-    "Day 1": [
+  },
+  "Computer Science": {
+    "11.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Institutional Leadership Talks\nPrincipal/Registrar/COE/Deans\nVenue: KK Auditorium"
+        "topic": "Student Induction Programme - Inauguration",
+        "speakers": "Mr. K. Hari Thiagarajan (Chairman), Dr. L. Ashok Kumar (Principal), Mr. Charles Godwin (Chief Guest)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Institutional Leadership Talks\nPrincipal/Registrar/COE/Deans\nVenue: KK Auditorium"
+        "topic": "Chief Guest Address",
+        "speakers": "Mr. Charles Godwin (HR Leader & Public Speaker, Zoho Corporation)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Campus Tour"
+        "topic": "Institutional Leadership Talks",
+        "speakers": "Principal, Registrar, COE, Deans",
+        "venue": "KK Auditorium"
       }
     ],
-    "Day 2": [
+    "12.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -1\nVenue: KK Auditorium"
+        "topic": "HoD Address to Students",
+        "venue": "Department"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Academic Regulations/Teaching Learning Process",
+        "venue": "Department"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lecture -2\nVenue: KS Auditorium"
+        "topic": "Club activities/Association",
+        "venue": "Department"
       }
     ],
-    "Day 3": [
+    "13.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -3\nVenue: KK Auditorium"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Workshop\nVenue: Multipurpose Hall"
+        "topic": "Kitchen Physics",
+        "speakers": "Dr. M. Mahendran (Professor & Head of Physics)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lecture -5\nVenue: KK Auditorium"
+        "topic": "Real World Engineering through Mathematics",
+        "speakers": "Dr. S. Jeyabharathi (Professor & Head of Mathematics)",
+        "venue": "KK Auditorium"
       }
     ],
-    "Day 4": [
+    "14.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -7\nVenue: KK Auditorium"
+        "topic": "Diagnostic Test - English/Library Session",
+        "venue": "Lab/Gmeet"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lecture -4\nVenue: KS Auditorium"
+        "topic": "Tele Counselling Cell",
+        "speakers": "Mrs. Muhil (Counsellor, Psychologist)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lecture -11\nVenue: KK Auditorium"
+        "topic": "Waste Management - Thooimai Mission Awareness Programme",
+        "speakers": "Dr. A. Ramalinga Chandra Sekar (Assistant Professor in Chemistry)",
+        "venue": "KK Auditorium"
       }
     ],
-    "Day 5": [
+    "18.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Yoga - Art of Living",
+        "venue": "Indoor Stadium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lecture -9\nVenue: KK Auditorium"
+        "topic": "Sports",
+        "speakers": "Dr. M Arun Prem (Physical Education Director)",
+        "venue": "Ground"
       },
       {
         "time": "02:30-04:00",
-        "topic": "NSS/NCC/YRC\nVenue: B Halls"
+        "topic": "AI & Beyond: Computational Intelligence for Young Minds",
+        "speakers": "Dr. P. Karthikeyan & Dr. A. M. Abirami (Professors in IT)",
+        "venue": "KK Auditorium"
       }
     ],
-    "Day 6": [
+    "19.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -13\nVenue: KK Auditorium"
+        "topic": "Scientific Concepts in Tamil Literature",
+        "speakers": "Dr. G. Balaji (Dean - Students)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lecture -15\nVenue: KK Auditorium"
+        "topic": "Foreign Language - An Insight",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lecture -17\nVenue: KK Auditorium"
+        "topic": "Explore TCE",
+        "speakers": "Ar. G. Vaishali (Assistant Professor in Architecture)",
+        "venue": "TCE Campus"
       }
     ],
-    "Day 7": [
+    "20.08.2025": [
       {
-        "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Sports\nVenue: Ground"
+        "time": "10:00-04:00",
+        "topic": "Keeladi - Local Visit",
+        "venue": "Keeladi"
       }
     ],
-    "Day 8": [
+    "21.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -8\nVenue: KS Auditorium"
+        "topic": "Awareness on Anti-Drug, Anti-Ragging, Cyber Crime",
+        "speakers": "Government Officials Team",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Women Empowerment Cell/Internal Compliance Cell",
+        "speakers": "Ms. S. Selva Gomathy (Advocate, Human Rights Activist)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
       }
     ],
-    "Day 9": [
+    "22.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Keeladi – Local Visit"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Keeladi – Local Visit"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Keeladi – Local Visit"
+        "topic": "Science for Engineers: Inspire & Innovate",
+        "speakers": "Dr. M. Kottaisamy (Professor & Head of Chemistry)",
+        "venue": "KK Auditorium"
       }
     ],
-    "Day 10": [
+    "25.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -20\nVenue: KK Auditorium"
+        "topic": "Diagnostic Test - Mathematics",
+        "venue": "Lab"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lecture -18\nVenue: KK Auditorium"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lecture -6\nVenue: KS Auditorium"
+        "topic": "NSS/NCC/YRC/Sports/Rotaract",
+        "speakers": "Dr. S. Prasanna (Associate Dean - ECA)",
+        "venue": "KS Auditorium"
       }
     ],
-    "Day 11": [
+    "26.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "HoD Address to Students\n(Department Activity)"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Tutor Ward System\n(Department Activity)"
+        "topic": "Language Matters",
+        "speakers": "Dr. A. Tamilselvi (Professor in English)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "CAMU Registration\n(Department Activity)"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
       }
     ],
-    "Day 12": [
+    "28.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "தமிழ் மரபில் கல்வியும் ஞானமும்",
+        "speakers": "கு. ஞானசாம்பந்தன்",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "UMIS Registration\n(Department Activity)"
+        "topic": "Technical Club Registration",
+        "venue": "B Halls"
       }
     ],
-    "Day 13": [
+    "29.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "TRIZ",
+        "speakers": "Dr. S. Baskar (Dean - Academics and Accreditation)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Creative Arts",
+        "venue": "Multipurpose Hall, Architecture"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      }
-    ],
-    "Day 14": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Spotlight - Cultural Performances",
+        "venue": "Open Auditorium"
       },
       {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      }
-    ],
-    "Day 15": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Feedback\nVenue: KK Auditorium"
-      }
-    ]
-  }
-,
-  "ECE": {
-    "Day 1": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Institutional Leadership Talks\nPrincipal/Registrar/COE/Deans\nVenue: KK Auditorium"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Institutional Leadership Talks\nPrincipal/Registrar/COE/Deans\nVenue: KK Auditorium"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Campus Tour"
-      }
-    ],
-    "Day 2": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lecture -1\nVenue: KK Auditorium"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      }
-    ],
-    "Day 3": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lecture -3\nVenue: KK Auditorium"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lecture -2\nVenue: KS Auditorium"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lecture -5\nVenue: KK Auditorium"
-      }
-    ],
-    "Day 4": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lecture -7\nVenue: KK Auditorium"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lecture -11\nVenue: KK Auditorium"
-      }
-    ],
-    "Day 5": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lecture -9\nVenue: KK Auditorium"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lecture -4\nVenue: KS Auditorium"
-      }
-    ],
-    "Day 6": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lecture -13\nVenue: KK Auditorium"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lecture -15\nVenue: KK Auditorium"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lecture -17\nVenue: KK Auditorium"
-      }
-    ],
-    "Day 7": [
-      {
-        "time": "10:00-11:30",
-        "topic": "NSS/NCC/YRC\nVenue: B Halls"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lecture -6\nVenue: KS Auditorium"
-      }
-    ],
-    "Day 8": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Keeladi – Local Visit"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Keeladi – Local Visit"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Keeladi – Local Visit"
-      }
-    ],
-    "Day 9": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lecture -20\nVenue: KK Auditorium"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lecture -8\nVenue: KS Auditorium"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Workshop\nVenue: Multipurpose Hall"
-      }
-    ],
-    "Day 10": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lecture -18\nVenue: KK Auditorium"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Sports\nVenue: Ground"
-      }
-    ],
-    "Day 11": [
-      {
-        "time": "10:00-11:30",
-        "topic": "HoD Address to Students\n(Department Activity)"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Tutor Ward System\n(Department Activity)"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "UMIS Registration\n(Department Activity)"
-      }
-    ],
-    "Day 12": [
-      {
-        "time": "10:00-11:30",
-        "topic": "CAMU Registration\n(Department Activity)"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      }
-    ],
-    "Day 13": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      }
-    ],
-    "Day 14": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      }
-    ],
-    "Day 15": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Feedback\nVenue: KK Auditorium"
+        "time": "04:00-04:45",
+        "topic": "Feedback Session",
+        "venue": "Open Auditorium"
       }
     ]
-  }
-,
-"MECHATRONICS": {
-    "Day 1": [
+  },
+  "Information Technology": {
+    "11.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Institutional Leadership Talks\nPrincipal/Registrar/COE/Deans\nVenue: KK Auditorium"
+        "topic": "Student Induction Programme - Inauguration",
+        "speakers": "Mr. K. Hari Thiagarajan (Chairman), Dr. L. Ashok Kumar (Principal), Mr. Charles Godwin (Chief Guest)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Institutional Leadership Talks\nPrincipal/Registrar/COE/Deans\nVenue: KK Auditorium"
+        "topic": "Chief Guest Address",
+        "speakers": "Mr. Charles Godwin (HR Leader & Public Speaker, Zoho Corporation)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Campus Tour"
+        "topic": "Institutional Leadership Talks",
+        "speakers": "Principal, Registrar, COE, Deans",
+        "venue": "KK Auditorium"
       }
     ],
-    "Day 2": [
+    "12.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -1\nVenue: KK Auditorium"
+        "topic": "HoD Address to Students",
+        "venue": "Department"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Academic Regulations/Teaching Learning Process",
+        "venue": "Department"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Club activities/Association",
+        "venue": "Department"
       }
     ],
-    "Day 3": [
+    "13.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -3\nVenue: KK Auditorium"
+        "topic": "Kitchen Physics",
+        "speakers": "Dr. M. Mahendran (Professor & Head of Physics)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lecture -2\nVenue: KS Auditorium"
+        "topic": "Science for Engineers: Inspire & Innovate",
+        "speakers": "Dr. M. Kottaisamy (Professor & Head of Chemistry)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lecture -5\nVenue: KK Auditorium"
+        "topic": "Real World Engineering through Mathematics",
+        "speakers": "Dr. S. Jeyabharathi (Professor & Head of Mathematics)",
+        "venue": "KK Auditorium"
       }
     ],
-    "Day 4": [
+    "14.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -7\nVenue: KK Auditorium"
+        "topic": "Diagnostic Test - English/Library Session",
+        "venue": "Lab/Gmeet"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Tele Counselling Cell",
+        "speakers": "Mrs. Muhil (Counsellor, Psychologist)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lecture -11\nVenue: KK Auditorium"
+        "topic": "Waste Management - Thooimai Mission Awareness Programme",
+        "speakers": "Dr. A. Ramalinga Chandra Sekar (Assistant Professor in Chemistry)",
+        "venue": "KK Auditorium"
       }
     ],
-    "Day 5": [
+    "18.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Sports",
+        "speakers": "Dr. M Arun Prem (Physical Education Director)",
+        "venue": "Ground"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lecture -9\nVenue: KK Auditorium"
+        "topic": "Yoga - Art of Living",
+        "venue": "Indoor Stadium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lecture -4\nVenue: KS Auditorium"
+        "topic": "NSS/NCC/YRC/Sports/Rotaract",
+        "speakers": "Dr. S. Prasanna (Associate Dean - ECA)",
+        "venue": "KS Auditorium"
       }
     ],
-    "Day 6": [
+    "19.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -13\nVenue: KK Auditorium"
+        "topic": "Scientific Concepts in Tamil Literature",
+        "speakers": "Dr. G. Balaji (Dean - Students)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lecture -15\nVenue: KK Auditorium"
+        "topic": "Foreign Language - An Insight",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lecture -17\nVenue: KK Auditorium"
+        "topic": "Tutor Ward",
+        "venue": "Department"
       }
     ],
-    "Day 7": [
+    "20.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "NSS/NCC/YRC\nVenue: B Halls"
+        "topic": "AI & Beyond: Computational Intelligence for Young Minds",
+        "speakers": "Dr. P. Karthikeyan & Dr. A. M. Abirami (Professors in IT)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lecture -6\nVenue: KS Auditorium"
+        "topic": "Explore TCE",
+        "speakers": "Ar. G. Vaishali (Assistant Professor in Architecture)",
+        "venue": "TCE Campus"
       }
     ],
-    "Day 8": [
+    "21.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Keeladi – Local Visit"
+        "topic": "Awareness on Anti-Drug, Anti-Ragging, Cyber Crime",
+        "speakers": "Government Officials Team",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Keeladi – Local Visit"
+        "topic": "Women Empowerment Cell/Internal Compliance Cell",
+        "speakers": "Ms. S. Selva Gomathy (Advocate, Human Rights Activist)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Keeladi – Local Visit"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
       }
     ],
-    "Day 9": [
+    "22.08.2025": [
       {
-        "time": "10:00-11:30",
-        "topic": "Lecture -20\nVenue: KK Auditorium"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lecture -8\nVenue: KS Auditorium"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Workshop\nVenue: Multipurpose Hall"
+        "time": "10:00-04:00",
+        "topic": "Keeladi - Local Visit",
+        "venue": "Keeladi"
       }
     ],
-    "Day 10": [
+    "25.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Diagnostic Test - Mathematics",
+        "venue": "Lab"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lecture -18\nVenue: KK Auditorium"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Sports\nVenue: Ground"
+        "topic": "Student Grievances/Scholarship/5S Practice/WEC/Anti-Ragging/Anti-Drug",
+        "venue": "Department"
       }
     ],
-    "Day 11": [
+    "26.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "HoD Address to Students\n(Department Activity)"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Tutor Ward System\n(Department Activity)"
+        "topic": "Language Matters",
+        "speakers": "Dr. A. Tamilselvi (Professor in English)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "UMIS Registration\n(Department Activity)"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
       }
     ],
-    "Day 12": [
+    "28.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "CAMU Registration\n(Department Activity)"
+        "topic": "தமிழ் மரபில் கல்வியும் ஞானமும்",
+        "speakers": "கு. ஞானசாம்பந்தன்",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Creative Arts",
+        "venue": "Multipurpose Hall, Architecture"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Technical Club Registration",
+        "venue": "B Halls"
       }
     ],
-    "Day 13": [
+    "29.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "TRIZ",
+        "speakers": "Dr. S. Baskar (Dean - Academics and Accreditation)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "SADAS Debate Club",
+        "speakers": "Dr. G Jeya Jeevakani (Assistant Professor in English)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      }
-    ],
-    "Day 14": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Spotlight - Cultural Performances",
+        "venue": "Open Auditorium"
       },
       {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      }
-    ],
-    "Day 15": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Feedback\nVenue: KK Auditorium"
-      }
-    ]
-  }
-,
-
-  "EEE": {
-    "Day 1": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Campus Tour"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Institutional Leadership Talks\nPrincipal/Registrar/COE/Deans\nVenue: KK Auditorium"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Institutional Leadership Talks\nPrincipal/Registrar/COE/Deans\nVenue: KK Auditorium"
-      }
-    ],
-    "Day 2": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lecture -2\nVenue: KS Auditorium"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lecture -1\nVenue: KK Auditorium"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lecture -5\nVenue: KK Auditorium"
-      }
-    ],
-    "Day 3": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lecture -3\nVenue: KK Auditorium"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lecture -6\nVenue: KS Auditorium"
-      }
-    ],
-    "Day 4": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lecture -4\nVenue: KS Auditorium"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lecture -7\nVenue: KK Auditorium"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      }
-    ],
-    "Day 5": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lecture -9\nVenue: KK Auditorium"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Sports\nVenue: Ground"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lecture -11\nVenue: KK Auditorium"
-      }
-    ],
-    "Day 6": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Keeladi – Local Visit"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Keeladi – Local Visit"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Keeladi – Local Visit"
-      }
-    ],
-    "Day 7": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lecture -13\nVenue: KK Auditorium"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lecture -15\nVenue: KK Auditorium"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lecture -17\nVenue: KK Auditorium"
-      }
-    ],
-    "Day 8": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lecture -18\nVenue: KK Auditorium"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lecture -8\nVenue: KS Auditorium"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      }
-    ],
-    "Day 9": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lecture -20\nVenue: KK Auditorium"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "NSS/NCC/YRC\nVenue: B Halls"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      }
-    ],
-    "Day 10": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Workshop\nVenue: Multipurpose Hall"
-      }
-    ],
-    "Day 11": [
-      {
-        "time": "10:00-11:30",
-        "topic": "HoD Address to Students\n(Department Activity)"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Tutor Ward System\n(Department Activity)"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "UMIS Registration\n(Department Activity)"
-      }
-    ],
-    "Day 12": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "CAMU Registration\n(Department Activity)"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      }
-    ],
-    "Day 13": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      }
-    ],
-    "Day 14": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      }
-    ],
-    "Day 15": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Feedback\nVenue: KK Auditorium"
+        "time": "04:00-04:45",
+        "topic": "Feedback Session",
+        "venue": "Open Auditorium"
       }
     ]
-  }
-,
-"CSBS": {
-    "Day 1": [
+  },
+  "Electronics and Communication": {
+    "11.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Campus Tour"
+        "topic": "Student Induction Programme - Inauguration",
+        "speakers": "Mr. K. Hari Thiagarajan (Chairman), Dr. L. Ashok Kumar (Principal), Mr. Charles Godwin (Chief Guest)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Institutional Leadership Talks\nPrincipal/Registrar/COE/Deans\nVenue: KK Auditorium"
+        "topic": "Chief Guest Address",
+        "speakers": "Mr. Charles Godwin (HR Leader & Public Speaker, Zoho Corporation)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Institutional Leadership Talks\nPrincipal/Registrar/COE/Deans\nVenue: KK Auditorium"
+        "topic": "Institutional Leadership Talks",
+        "speakers": "Principal, Registrar, COE, Deans",
+        "venue": "KK Auditorium"
       }
     ],
-    "Day 2": [
+    "12.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -2\nVenue: KS Auditorium"
+        "topic": "HoD Address to Students",
+        "venue": "Department"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lecture -1\nVenue: KK Auditorium"
+        "topic": "Academic Regulations/Teaching Learning Process",
+        "venue": "Department"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lecture -5\nVenue: KK Auditorium"
+        "topic": "Club activities/Association",
+        "venue": "Department"
       }
     ],
-    "Day 3": [
+    "13.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Student Grievances/Scholarship/5S Practice/WEC/Anti-Ragging/Anti-Drug",
+        "venue": "Department"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lecture -3\nVenue: KK Auditorium"
+        "topic": "Science for Engineers: Inspire & Innovate",
+        "speakers": "Dr. M. Kottaisamy (Professor & Head of Chemistry)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lecture -6\nVenue: KS Auditorium"
+        "topic": "Tele Counselling Cell",
+        "speakers": "Mrs. Gengaa Vijayaraghavan (Counsellor, Psychologist)",
+        "venue": "KS Auditorium"
       }
     ],
-    "Day 4": [
+    "14.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -4\nVenue: KS Auditorium"
+        "topic": "Awareness on Anti-Drug, Anti-Ragging, Cyber Crime",
+        "speakers": "Government Officials Team",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lecture -7\nVenue: KK Auditorium"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Diagnostic Test - English/Library Session",
+        "venue": "Lab/Gmeet"
       }
     ],
-    "Day 5": [
+    "18.08.2025": [
       {
-        "time": "10:00-11:30",
-        "topic": "Lecture -9\nVenue: KK Auditorium"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Sports\nVenue: Ground"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lecture -11\nVenue: KK Auditorium"
+        "time": "10:00-04:00",
+        "topic": "Keeladi - Local Visit",
+        "venue": "Keeladi"
       }
     ],
-    "Day 6": [
+    "19.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Keeladi – Local Visit"
+        "topic": "Yoga - Art of Living",
+        "venue": "Indoor Stadium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Keeladi – Local Visit"
+        "topic": "Sports",
+        "speakers": "Dr. M Arun Prem (Physical Education Director)",
+        "venue": "Ground"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Keeladi – Local Visit"
+        "topic": "Foreign Language - An Insight",
+        "venue": "KK Auditorium"
       }
     ],
-    "Day 7": [
+    "20.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -13\nVenue: KK Auditorium"
+        "topic": "AI & Beyond: Computational Intelligence for Young Minds",
+        "speakers": "Dr. P. Karthikeyan & Dr. A. M. Abirami (Professors in IT)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lecture -15\nVenue: KK Auditorium"
+        "topic": "Waste Management - Thooimai Mission Awareness Programme",
+        "speakers": "Dr. A. Ramalinga Chandra Sekar (Assistant Professor in Chemistry)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lecture -17\nVenue: KK Auditorium"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "KK Auditorium"
       }
     ],
-    "Day 8": [
+    "21.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -18\nVenue: KK Auditorium"
+        "topic": "Tutor Ward",
+        "venue": "Department"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lecture -8\nVenue: KS Auditorium"
+        "topic": "Women Empowerment Cell/Internal Compliance Cell",
+        "speakers": "Ms. S. Selva Gomathy (Advocate, Human Rights Activist)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Explore TCE",
+        "speakers": "Ar. G. Vaishali (Assistant Professor in Architecture)",
+        "venue": "TCE Campus"
       }
     ],
-    "Day 9": [
+    "22.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -20\nVenue: KK Auditorium"
+        "topic": "Tamil Literature on Nanotechnology",
+        "speakers": "Dr. M. Mahendran (Professor & Head of Physics)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "NSS/NCC/YRC\nVenue: B Halls"
+        "topic": "Real World Engineering through Mathematics",
+        "speakers": "Dr. S. Jeyabharathi (Professor & Head of Mathematics)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "NSS/NCC/YRC/Sports/Rotaract",
+        "speakers": "Dr. S. Prasanna (Associate Dean - ECA)",
+        "venue": "KS Auditorium"
       }
     ],
-    "Day 10": [
+    "25.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Scientific Concepts in Tamil Literature",
+        "speakers": "Dr. G. Balaji (Dean - Students)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Workshop\nVenue: Multipurpose Hall"
+        "topic": "Diagnostic Test - Mathematics",
+        "venue": "Lab"
       }
     ],
-    "Day 11": [
+    "26.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "HoD Address to Students\n(Department Activity)"
+        "topic": "Language Matters",
+        "speakers": "Dr. A. Tamilselvi (Professor in English)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Tutor Ward System\n(Department Activity)"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
       },
       {
         "time": "02:30-04:00",
-        "topic": "UMIS Registration\n(Department Activity)"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
       }
     ],
-    "Day 12": [
+    "28.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Creative Arts",
+        "venue": "Multipurpose Hall, Architecture"
       },
       {
         "time": "12:00-01:30",
-        "topic": "CAMU Registration\n(Department Activity)"
+        "topic": "தமிழ் மரபில் கல்வியும் ஞானமும்",
+        "speakers": "கு. ஞானசாம்பந்தன்",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "TRIZ",
+        "speakers": "Dr. S. Baskar (Dean - Academics and Accreditation)",
+        "venue": "KK Auditorium"
       }
     ],
-    "Day 13": [
+    "29.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "SADAS Debate Club",
+        "speakers": "Dr. G Jeya Jeevakani (Assistant Professor in English)",
+        "venue": "KS Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Technical Club Registration",
+        "venue": "B Halls"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      }
-    ],
-    "Day 14": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Spotlight - Cultural Performances",
+        "venue": "Open Auditorium"
       },
       {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      }
-    ],
-    "Day 15": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Feedback\nVenue: KK Auditorium"
+        "time": "04:00-04:45",
+        "topic": "Feedback Session",
+        "venue": "Open Auditorium"
       }
     ]
-  }
-,
-"CIVIL": {
-    "Day 1": [
+  },
+  "Mechatronics": {
+    "11.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Campus Tour"
+        "topic": "Student Induction Programme - Inauguration",
+        "speakers": "Mr. K. Hari Thiagarajan (Chairman), Dr. L. Ashok Kumar (Principal), Mr. Charles Godwin (Chief Guest)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Institutional Leadership Talks\nPrincipal/Registrar/COE/Deans\nVenue: KK Auditorium"
+        "topic": "Chief Guest Address",
+        "speakers": "Mr. Charles Godwin (HR Leader & Public Speaker, Zoho Corporation)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Institutional Leadership Talks\nPrincipal/Registrar/COE/Deans\nVenue: KK Auditorium"
+        "topic": "Institutional Leadership Talks",
+        "speakers": "Principal, Registrar, COE, Deans",
+        "venue": "KK Auditorium"
       }
     ],
-    "Day 2": [
+    "12.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "HoD Address to Students",
+        "venue": "Department"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lecture -1\nVenue: KK Auditorium"
+        "topic": "Academic Regulations/Teaching Learning Process",
+        "venue": "Department"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lecture -5\nVenue: KK Auditorium"
+        "topic": "Club activities/Association",
+        "venue": "Department"
       }
     ],
-    "Day 3": [
+    "13.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -2\nVenue: KS Auditorium"
+        "topic": "Student Grievances/Scholarship/5S Practice/WEC/Anti-Ragging/Anti-Drug",
+        "venue": "Department"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lecture -3\nVenue: KK Auditorium"
+        "topic": "Science for Engineers: Inspire & Innovate",
+        "speakers": "Dr. M. Kottaisamy (Professor & Head of Chemistry)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Tele Counselling Cell",
+        "speakers": "Mrs. Gengaa Vijayaraghavan (Counsellor, Psychologist)",
+        "venue": "KS Auditorium"
       }
     ],
-    "Day 4": [
+    "14.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Tutor Ward",
+        "venue": "Department"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lecture -7\nVenue: KK Auditorium"
+        "topic": "Diagnostic Test - English/Library Session",
+        "venue": "Lab/Gmeet"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lecture -6\nVenue: KS Auditorium"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
       }
     ],
-    "Day 5": [
+    "18.08.2025": [
       {
-        "time": "10:00-11:30",
-        "topic": "Lecture -9\nVenue: KK Auditorium"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lecture -4\nVenue: KS Auditorium"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lecture -11\nVenue: KK Auditorium"
+        "time": "10:00-04:00",
+        "topic": "Keeladi - Local Visit",
+        "venue": "Keeladi"
       }
     ],
-    "Day 6": [
+    "19.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Keeladi – Local Visit"
+        "topic": "Yoga - Art of Living",
+        "venue": "Indoor Stadium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Keeladi – Local Visit"
+        "topic": "Sports",
+        "speakers": "Dr. M Arun Prem (Physical Education Director)",
+        "venue": "Ground"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Keeladi – Local Visit"
+        "topic": "Foreign Language - An Insight",
+        "venue": "KK Auditorium"
       }
     ],
-    "Day 7": [
+    "20.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -13\nVenue: KK Auditorium"
+        "topic": "AI & Beyond: Computational Intelligence for Young Minds",
+        "speakers": "Dr. P. Karthikeyan & Dr. A. M. Abirami (Professors in IT)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lecture -15\nVenue: KK Auditorium"
+        "topic": "Waste Management - Thooimai Mission Awareness Programme",
+        "speakers": "Dr. A. Ramalinga Chandra Sekar (Assistant Professor in Chemistry)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lecture -17\nVenue: KK Auditorium"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "KK Auditorium"
       }
     ],
-    "Day 8": [
+    "21.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -18\nVenue: KK Auditorium"
+        "topic": "Awareness on Anti-Drug, Anti-Ragging, Cyber Crime",
+        "speakers": "Government Officials Team",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Workshop\nVenue: Multipurpose Hall"
+        "topic": "Women Empowerment Cell/Internal Compliance Cell",
+        "speakers": "Ms. S. Selva Gomathy (Advocate, Human Rights Activist)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lecture -8\nVenue: KS Auditorium"
+        "topic": "Explore TCE",
+        "speakers": "Ar. G. Vaishali (Assistant Professor in Architecture)",
+        "venue": "TCE Campus"
       }
     ],
-    "Day 9": [
+    "22.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Tamil Literature on Nanotechnology",
+        "speakers": "Dr. M. Mahendran (Professor & Head of Physics)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Real World Engineering through Mathematics",
+        "speakers": "Dr. S. Jeyabharathi (Professor & Head of Mathematics)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "NSS/NCC/YRC/Sports/Rotaract",
+        "speakers": "Dr. S. Prasanna (Associate Dean - ECA)",
+        "venue": "KS Auditorium"
       }
     ],
-    "Day 10": [
+    "25.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -20\nVenue: KK Auditorium"
+        "topic": "Scientific Concepts in Tamil Literature",
+        "speakers": "Dr. G. Balaji (Dean - Students)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Sports\nVenue: Ground"
+        "topic": "Diagnostic Test - Mathematics",
+        "venue": "Lab"
       },
       {
         "time": "02:30-04:00",
-        "topic": "NSS/NCC/YRC\nVenue: B Halls"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
       }
     ],
-    "Day 11": [
+    "26.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "HoD Address to Students\n(Department Activity)"
+        "topic": "Language Matters",
+        "speakers": "Dr. A. Tamilselvi (Professor in English)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Tutor Ward System\n(Department Activity)"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
       }
     ],
-    "Day 12": [
+    "28.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "UMIS Registration\n(Department Activity)"
+        "topic": "Creative Arts",
+        "venue": "Multipurpose Hall, Architecture"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "தமிழ் மரபில் கல்வியும் ஞானமும்",
+        "speakers": "கு. ஞானசாம்பந்தன்",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "CAMU Registration\n(Department Activity)"
+        "topic": "TRIZ",
+        "speakers": "Dr. S. Baskar (Dean - Academics and Accreditation)",
+        "venue": "KS Auditorium"
       }
     ],
-    "Day 13": [
+    "29.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "SADAS Debate Club",
+        "speakers": "Dr. G Jeya Jeevakani (Assistant Professor in English)",
+        "venue": "KS Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Technical Club Registration",
+        "venue": "B Halls"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      }
-    ],
-    "Day 14": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Spotlight - Cultural Performances",
+        "venue": "Open Auditorium"
       },
       {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      }
-    ],
-    "Day 15": [
-      {
-        "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Feedback\nVenue: KK Auditorium"
+        "time": "04:00-04:45",
+        "topic": "Feedback Session",
+        "venue": "Open Auditorium"
       }
     ]
-  }
-  ,
-  "MECH": {
-    "Day 1": [
+  },
+  "Electrical and Electronics": {
+    "11.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Campus Tour"
+        "topic": "Student Induction Programme - Inauguration",
+        "speakers": "Mr. K. Hari Thiagarajan (Chairman), Dr. L. Ashok Kumar (Principal), Mr. Charles Godwin (Chief Guest)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Institutional Leadership Talks\nPrincipal/Registrar/COE/Deans\nVenue: KK Auditorium"
+        "topic": "Academic Regulations/Teaching Learning Process",
+        "venue": "Department"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Institutional Leadership Talks\nPrincipal/Registrar/COE/Deans\nVenue: KK Auditorium"
+        "topic": "Tele Counselling Cell",
+        "speakers": "Mrs. Gengaa Vijayaraghavan (Counsellor, Psychologist)",
+        "venue": "KS Auditorium"
       }
     ],
-    "Day 2": [
+    "12.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Diagnostic Test - English/Library Session",
+        "venue": "Lab/Gmeet"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lecture -1\nVenue: KK Auditorium"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lecture -5\nVenue: KK Auditorium"
+        "topic": "Waste Management - Thooimai Mission Awareness Programme",
+        "speakers": "Dr. A. Ramalinga Chandra Sekar (Assistant Professor in Chemistry)",
+        "venue": "KK Auditorium"
       }
     ],
-    "Day 3": [
+    "13.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -2\nVenue: KS Auditorium"
+        "topic": "Explore TCE",
+        "speakers": "Ar. G. Vaishali (Assistant Professor in Architecture)",
+        "venue": "TCE Campus"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lecture -3\nVenue: KK Auditorium"
+        "topic": "Keeladi - Local Visit",
+        "venue": "Keeladi"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Real World Engineering through Mathematics",
+        "speakers": "Dr. S. Jeyabharathi (Professor & Head of Mathematics)",
+        "venue": "KK Auditorium"
       }
     ],
-    "Day 4": [
+    "14.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Diagnostic Test - Mathematics",
+        "venue": "Lab"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lecture -7\nVenue: KK Auditorium"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lecture -6\nVenue: KS Auditorium"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "KK Auditorium"
+      }
+    ]
+  },
+  "Computer Science and Business Systems": {
+    "11.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "Student Induction Programme - Inauguration",
+        "speakers": "Mr. K. Hari Thiagarajan (Chairman), Dr. L. Ashok Kumar (Principal), Mr. Charles Godwin (Chief Guest)",
+        "venue": "KK Auditorium"
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Chief Guest Address",
+        "speakers": "Mr. Charles Godwin (HR Leader & Public Speaker, Zoho Corporation)",
+        "venue": "KK Auditorium"
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "Institutional Leadership Talks",
+        "speakers": "Principal, Registrar, COE, Deans",
+        "venue": "KK Auditorium"
       }
     ],
-    "Day 5": [
+    "12.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -9\nVenue: KK Auditorium"
+        "topic": "HoD Address to Students",
+        "venue": "Department"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lecture -4\nVenue: KS Auditorium"
+        "topic": "Academic Regulations/Teaching Learning Process",
+        "venue": "Department"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lecture -11\nVenue: KK Auditorium"
+        "topic": "Club activities/Association",
+        "venue": "Department"
       }
     ],
-    "Day 6": [
+    "13.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Keeladi – Local Visit"
+        "topic": "Kitchen Physics",
+        "speakers": "Dr. M. Mahendran (Professor & Head of Physics)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Keeladi – Local Visit"
+        "topic": "Tele Counselling Cell",
+        "speakers": "Mrs. Gengaa Vijayaraghavan (Counsellor, Psychologist)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Keeladi – Local Visit"
+        "topic": "Real World Engineering through Mathematics",
+        "speakers": "Dr. S. Jeyabharathi (Professor & Head of Mathematics)",
+        "venue": "KK Auditorium"
       }
     ],
-    "Day 7": [
+    "14.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -13\nVenue: KK Auditorium"
+        "topic": "Awareness on Anti-Drug, Anti-Ragging, Cyber Crime",
+        "speakers": "Government Officials Team",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lecture -15\nVenue: KK Auditorium"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lecture -17\nVenue: KK Auditorium"
+        "topic": "Diagnostic Test - English/Library Session",
+        "venue": "Lab/Gmeet"
       }
     ],
-    "Day 8": [
+    "18.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -18\nVenue: KK Auditorium"
+        "topic": "Women Empowerment Cell/Internal Compliance Cell",
+        "speakers": "Ms. S. Selva Gomathy (Advocate, Human Rights Activist)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Workshop\nVenue: Multipurpose Hall"
+        "topic": "Explore TCE",
+        "speakers": "Ar. G. Vaishali (Assistant Professor in Architecture)",
+        "venue": "TCE Campus"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lecture -8\nVenue: KS Auditorium"
+        "topic": "AI & Beyond: Computational Intelligence for Young Minds",
+        "speakers": "Dr. P. Karthikeyan & Dr. A. M. Abirami (Professors in IT)",
+        "venue": "KK Auditorium"
       }
     ],
-    "Day 9": [
+    "19.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Scientific Concepts in Tamil Literature",
+        "speakers": "Dr. G. Balaji (Dean - Students)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Foreign Language - An Insight",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Sports",
+        "speakers": "Dr. M Arun Prem (Physical Education Director)",
+        "venue": "Ground"
       }
     ],
-    "Day 10": [
+    "20.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lecture -20\nVenue: KK Auditorium"
+        "topic": "Yoga - Art of Living",
+        "venue": "Indoor Stadium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Sports\nVenue: Ground"
+        "topic": "Waste Management - Thooimai Mission Awareness Programme",
+        "speakers": "Dr. A. Ramalinga Chandra Sekar (Assistant Professor in Chemistry)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "NSS/NCC/YRC\nVenue: B Halls"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
       }
     ],
-    "Day 11": [
+    "21.08.2025": [
       {
-        "time": "10:00-11:30",
-        "topic": "HoD Address to Students\n(Department Activity)"
-      },
-      {
-        "time": "12:00-01:30",
-        "topic": "Tutor Ward System\n(Department Activity)"
-      },
-      {
-        "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "time": "10:00-04:00",
+        "topic": "Keeladi - Local Visit",
+        "venue": "Keeladi"
       }
     ],
-    "Day 12": [
+    "22.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "UMIS Registration\n(Department Activity)"
+        "topic": "Student Grievances/Scholarship/5S Practice/WEC/Anti-Ragging/Anti-Drug",
+        "venue": "Department"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Tutor Ward",
+        "venue": "Department"
       },
       {
         "time": "02:30-04:00",
-        "topic": "CAMU Registration\n(Department Activity)"
+        "topic": "Science for Engineers: Inspire & Innovate",
+        "speakers": "Dr. M. Kottaisamy (Professor & Head of Chemistry)",
+        "venue": "KK Auditorium"
       }
     ],
-    "Day 13": [
+    "25.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Diagnostic Test - Mathematics",
+        "venue": "Lab"
       }
     ],
-    "Day 14": [
+    "26.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Language Matters",
+        "speakers": "Dr. A. Tamilselvi (Professor in English)",
+        "venue": "KK Auditorium"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "NSS/NCC/YRC/Sports/Rotaract",
+        "speakers": "Dr. S. Prasanna (Associate Dean - ECA)",
+        "venue": "KS Auditorium"
       }
     ],
-    "Day 15": [
+    "28.08.2025": [
       {
         "time": "10:00-11:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "தமிழ் மரபில் கல்வியும் ஞானமும்",
+        "speakers": "கு. ஞானசாம்பந்தன்",
+        "venue": "KK Auditorium"
       },
       {
         "time": "12:00-01:30",
-        "topic": "Lab Visit/Session to Plan\nVenue:"
+        "topic": "Technical Club Registration",
+        "venue": "B Halls"
       },
       {
         "time": "02:30-04:00",
-        "topic": "Feedback\nVenue: KK Auditorium"
+        "topic": "Creative Arts",
+        "venue": "Multipurpose Hall, Architecture"
+      }
+    ],
+    "29.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "TRIZ",
+        "speakers": "Dr. S. Baskar (Dean - Academics and Accreditation)",
+        "venue": "KS Auditorium"
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "SADAS Debate Club",
+        "speakers": "Dr. G Jeya Jeevakani (Assistant Professor in English)",
+        "venue": "KK Auditorium"
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "Spotlight - Cultural Performances",
+        "venue": "Open Auditorium"
+      },
+      {
+        "time": "04:00-04:45",
+        "topic": "Feedback Session",
+        "venue": "Open Auditorium"
+      }
+    ]
+  },
+  "Civil": {
+    "11.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "Student Induction Programme - Inauguration",
+        "speakers": "Mr. K. Hari Thiagarajan (Chairman), Dr. L. Ashok Kumar (Principal), Mr. Charles Godwin (Chief Guest)",
+        "venue": "KK Auditorium"
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Chief Guest Address",
+        "speakers": "Mr. Charles Godwin (HR Leader & Public Speaker, Zoho Corporation)",
+        "venue": "KK Auditorium"
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "Institutional Leadership Talks",
+        "speakers": "Principal, Registrar, COE, Deans",
+        "venue": "KK Auditorium"
+      }
+    ],
+    "12.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "HoD Address to Students",
+        "venue": "Department"
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Academic Regulations/Teaching Learning Process",
+        "venue": "Department"
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "Club activities/Association",
+        "venue": "Department"
+      }
+    ],
+    "13.08.2025": [
+      {
+        "time": "10:00-04:00",
+        "topic": "Keeladi - Local Visit",
+        "venue": "Keeladi"
+      }
+    ],
+    "14.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "Awareness on Anti-Drug, Anti-Ragging, Cyber Crime",
+        "speakers": "Government Officials Team",
+        "venue": "KK Auditorium"
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Diagnostic Test - English/Library Session",
+        "venue": "Lab/Gmeet"
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "Tele Counselling Cell",
+        "speakers": "Mrs. Muhil (Counsellor, Psychologist)",
+        "venue": "KS Auditorium"
+      }
+    ],
+    "18.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "Women Empowerment Cell/Internal Compliance Cell",
+        "speakers": "Ms. S. Selva Gomathy (Advocate, Human Rights Activist)",
+        "venue": "KK Auditorium"
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "AI & Beyond: Computational Intelligence for Young Minds",
+        "speakers": "Dr. P. Karthikeyan & Dr. A. M. Abirami (Professors in IT)",
+        "venue": "KK Auditorium"
+      }
+    ],
+    "19.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "Sports",
+        "speakers": "Dr. M Arun Prem (Physical Education Director)",
+        "venue": "Ground"
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Yoga - Art of Living",
+        "venue": "Indoor Stadium"
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "Foreign Language - An Insight",
+        "venue": "KK Auditorium"
+      }
+    ],
+    "20.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "Tutor Ward",
+        "venue": "Department"
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Waste Management - Thooimai Mission Awareness Programme",
+        "speakers": "Dr. A. Ramalinga Chandra Sekar (Assistant Professor in Chemistry)",
+        "venue": "KK Auditorium"
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "Universal Human Values (UHV)",
+        "venue": "KK Auditorium"
+      }
+    ],
+    "21.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "Student Grievances/Scholarship/5S Practice/WEC/Anti-Ragging/Anti-Drug",
+        "venue": "Department"
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "NSS/NCC/YRC/Sports/Rotaract",
+        "speakers": "Dr. S. Prasanna (Associate Dean - ECA)",
+        "venue": "KS Auditorium"
+      }
+    ],
+    "22.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "Tamil Literature on Nanotechnology",
+        "speakers": "Dr. M. Mahendran (Professor & Head of Physics)",
+        "venue": "KK Auditorium"
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Real World Engineering through Mathematics",
+        "speakers": "Dr. S. Jeyabharathi (Professor & Head of Mathematics)",
+        "venue": "KK Auditorium"
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "Science for Engineers: Inspire & Innovate",
+        "speakers": "Dr. M. Kottaisamy (Professor & Head of Chemistry)",
+        "venue": "KK Auditorium"
+      }
+    ],
+    "25.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "Scientific Concepts in Tamil Literature",
+        "speakers": "Dr. G. Balaji (Dean - Students)",
+        "venue": "KK Auditorium"
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Diagnostic Test - Mathematics",
+        "venue": "Lab"
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "Explore TCE",
+        "speakers": "Ar. G. Vaishali (Assistant Professor in Architecture)",
+        "venue": "TCE Campus"
+      }
+    ],
+    "26.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "Language Matters",
+        "speakers": "Dr. A. Tamilselvi (Professor in English)",
+        "venue": "KK Auditorium"
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
+      }
+    ],
+    "28.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "SADAS Debate Club",
+        "speakers": "Dr. G Jeya Jeevakani (Assistant Professor in English)",
+        "venue": "KS Auditorium"
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "தமிழ் மரபில் கல்வியும் ஞானமும்",
+        "speakers": "கு. ஞானசாம்பந்தன்",
+        "venue": "KK Auditorium"
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "TRIZ",
+        "speakers": "Dr. S. Baskar (Dean - Academics and Accreditation)",
+        "venue": "KS Auditorium"
+      }
+    ],
+    "29.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "Creative Arts",
+        "venue": "Multipurpose Hall, Architecture"
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Technical Club Registration",
+        "venue": "B Halls"
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "Spotlight - Cultural Performances",
+        "venue": "Open Auditorium"
+      },
+      {
+        "time": "04:00-04:45",
+        "topic": "Feedback Session",
+        "venue": "Open Auditorium"
+      }
+    ]
+  },
+  "Mechanical": {
+    "11.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "Student Induction Programme - Inauguration",
+        "speakers": "Mr. K. Hari Thiagarajan (Chairman), Dr. L. Ashok Kumar (Principal), Mr. Charles Godwin (Chief Guest)",
+        "venue": "KK Auditorium"
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Chief Guest Address",
+        "speakers": "Mr. Charles Godwin (HR Leader & Public Speaker, Zoho Corporation)",
+        "venue": "KK Auditorium"
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "Institutional Leadership Talks",
+        "speakers": "Principal, Registrar, COE, Deans",
+        "venue": "KK Auditorium"
+      }
+    ],
+    "12.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "HoD Address to Students",
+        "venue": "Department"
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Academic Regulations/Teaching Learning Process",
+        "venue": "Department"
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "Club activities/Association",
+        "venue": "Department"
+      }
+    ],
+    "13.08.2025": [
+      {
+        "time": "10:00-04:00",
+        "topic": "Keeladi - Local Visit",
+        "venue": "Keeladi"
+      }
+    ],
+    "14.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "Awareness on Anti-Drug, Anti-Ragging, Cyber Crime",
+        "speakers": "Government Officials Team",
+        "venue": "KK Auditorium"
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Diagnostic Test - English/Library Session",
+        "venue": "Lab/Gmeet"
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "Tele Counselling Cell",
+        "speakers": "Mrs. Muhil (Counsellor, Psychologist)",
+        "venue": "KS Auditorium"
+      }
+    ],
+    "18.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "Women Empowerment Cell/Internal Compliance Cell",
+        "speakers": "Ms. S. Selva Gomathy (Advocate, Human Rights Activist)",
+        "venue": "KK Auditorium"
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "AI & Beyond: Computational Intelligence for Young Minds",
+        "speakers": "Dr. P. Karthikeyan & Dr. A. M. Abirami (Professors in IT)",
+        "venue": "KK Auditorium"
+      }
+    ],
+    "19.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "Sports",
+        "speakers": "Dr. M Arun Prem (Physical Education Director)",
+        "venue": "Ground"
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Yoga - Art of Living",
+        "venue": "Indoor Stadium"
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "Foreign Language - An Insight",
+        "venue": "KK Auditorium"
+      }
+    ],
+    "20.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "Tutor Ward",
+        "venue": "Department"
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Waste Management - Thooimai Mission Awareness Programme",
+        "speakers": "Dr. A. Ramalinga Chandra Sekar (Assistant Professor in Chemistry)",
+        "venue": "KK Auditorium"
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "Universal Human Values (UHV)",
+        "venue": "KK Auditorium"
+      }
+    ],
+    "21.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "Student Grievances/Scholarship/5S Practice/WEC/Anti-Ragging/Anti-Drug",
+        "venue": "Department"
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "NSS/NCC/YRC/Sports/Rotaract",
+        "speakers": "Dr. S. Prasanna (Associate Dean - ECA)",
+        "venue": "KS Auditorium"
+      }
+    ],
+    "22.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "Tamil Literature on Nanotechnology",
+        "speakers": "Dr. M. Mahendran (Professor & Head of Physics)",
+        "venue": "KK Auditorium"
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Real World Engineering through Mathematics",
+        "speakers": "Dr. S. Jeyabharathi (Professor & Head of Mathematics)",
+        "venue": "KK Auditorium"
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "Science for Engineers: Inspire & Innovate",
+        "speakers": "Dr. M. Kottaisamy (Professor & Head of Chemistry)",
+        "venue": "KK Auditorium"
+      }
+    ],
+    "25.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "Scientific Concepts in Tamil Literature",
+        "speakers": "Dr. G. Balaji (Dean - Students)",
+        "venue": "KK Auditorium"
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Diagnostic Test - Mathematics",
+        "venue": "Lab"
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "Explore TCE",
+        "speakers": "Ar. G. Vaishali (Assistant Professor in Architecture)",
+        "venue": "TCE Campus"
+      }
+    ],
+    "26.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "Language Matters",
+        "speakers": "Dr. A. Tamilselvi (Professor in English)",
+        "venue": "KK Auditorium"
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls"
+      }
+    ],
+    "28.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "SADAS Debate Club",
+        "speakers": "Dr. G Jeya Jeevakani (Assistant Professor in English)",
+        "venue": "KS Auditorium"
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "தமிழ் மரபில் கல்வியும் ஞானமும்",
+        "speakers": "கு. ஞானசாம்பந்தன்",
+        "venue": "KK Auditorium"
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "TRIZ",
+        "speakers": "Dr. S. Baskar (Dean - Academics and Accreditation)",
+        "venue": "KS Auditorium"
+      }
+    ],
+    "29.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "Creative Arts",
+        "venue": "Multipurpose Hall, Architecture"
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Technical Club Registration",
+        "venue": "B Halls"
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "Spotlight - Cultural Performances",
+        "venue": "Open Auditorium"
+      },
+      {
+        "time": "04:00-04:45",
+        "topic": "Feedback Session",
+        "venue": "Open Auditorium"
       }
     ]
   }
 }
-
 
 export default sessionData;
