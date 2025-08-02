@@ -1,5 +1,6 @@
 import { useState,useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
+import Footer from '../components/Footer';
 
 export const LoginPage = () => {
   const navigate = useNavigate();
@@ -50,6 +51,7 @@ export const LoginPage = () => {
   };
 
   return (
+    <>
     <div className="min-h-screen  flex flex-col items-center justify-center p-4">
       <img src="images/college_logo.png" alt="College Logo" className="w-20 max-w-md h-auto mb-6 rounded-lg shadow-lg" />
       <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">First Year SIP-Feedback Portal</h1>
@@ -87,6 +89,9 @@ export const LoginPage = () => {
           <button className="w-full bg-yellow-500 text-white font-bold p-3 rounded-lg cursor-pointer hover:bg-yellow-600 transition-colors" type="submit">Login</button>
         </form>
       </div>
+      
     </div>
+    <Footer/>
+    </>
   );
 };
