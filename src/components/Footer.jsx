@@ -70,23 +70,7 @@ const Footer = () => {
           </div>
 
           {/* Column 3: More Info Link */}
-          <div>
-            <h3 className="text-lg font-semibold text-white tracking-wider">
-              More
-            </h3>
-            <ul className="mt-4 space-y-2">
-              <li>
-                <a href="/contact" className="text-base text-gray-300 hover:text-white hover:underline">
-                  Full Contact List
-                </a>
-              </li>
-               <li>
-                <a href="/faq" className="text-base text-gray-300 hover:text-white hover:underline">
-                  FAQ
-                </a>
-              </li>
-            </ul>
-          </div>
+          
         </div>
 
         {/* Bottom Border and Copyright */}
