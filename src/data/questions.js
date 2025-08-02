@@ -1,6 +1,9 @@
 export default {
-  Q1: "Was the session engaging?",
-  Q2: "Was the session helpful to your understanding?",
-  Q3: "Any suggestions for improvement?",
-  Q4: "Rate the session"
+  Q1: "Opinion about overall session",
+  Q2: "Clarity in the speech",
+  Q3: "Speaker's interaction with the students",
+  Q4: "Did the session deliver the information you expected to receive",
+  Q5: "Was the subject matter presented effectively",
+  Q6: "Is the speaker knowledgeable",
+  Q7: "Suggestions/Questions/Feedback"
 };

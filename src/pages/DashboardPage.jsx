@@ -30,9 +30,7 @@ export const DashboardPage = () => {
   useEffect(() => {
   if (user?.dept) {
     const options = api.getAvailableDays(user.dept);
-    console.log("Available day options:", options);
     setDayOptions(options);
-    console.log("Current department:", user?.dept);
 
   }
 }, [user?.dept]);
@@ -74,12 +72,19 @@ export const DashboardPage = () => {
       return;
     }
 
-    const answers = [
-      feedback[`${sessionIndex}-0`] || '',
-      feedback[`${sessionIndex}-1`] || '',
-      feedback[`${sessionIndex}-2`] || '',
-      ["Average", "Good", "Very Good", "Excellent"][(feedback[`${sessionIndex}-rating`] || 1) - 1] || 'Not Rated'
-    ];
+    // Collect all question answers
+    const questionCount = Object.entries(questions).slice(0, 7).length;
+    const answers = [];
+    for (let qIndex = 0; qIndex < questionCount; qIndex++) {
+      answers.push(feedback[`${sessionIndex}-${qIndex}`] || '');
+    }
+    // Add rating as last answer
+    answers.push([
+      "Average",
+      "Good",
+      "Very Good",
+      "Excellent"
+    ][(feedback[`${sessionIndex}-rating`] || 1) - 1] || 'Not Rated');
 
     const feedbackData = {
       name: user.name,
@@ -150,24 +155,17 @@ export const DashboardPage = () => {
             return (
               <div key={`${user.day}-${index}`} className="mb-8 p-6 border border-gray-200 rounded-lg bg-gray-50">
                 <h3 className="text-xl font-bold text-gray-800 mb-4">{session.topic} ({session.time})</h3>
-                <textarea
-                  className="w-full p-3 mb-3 border rounded-md"
-                  placeholder={`1. ${questions.Q1}`}
-                  onChange={e => handleFeedbackChange(index, 0, e.target.value)}
-                  disabled={isSubmitted}
-                />
-                <textarea
-                  className="w-full p-3 mb-3 border rounded-md"
-                  placeholder={`2. ${questions.Q2}`}
-                  onChange={e => handleFeedbackChange(index, 1, e.target.value)}
-                  disabled={isSubmitted}
-                />
-                <textarea
-                  className="w-full p-3 mb-4 border rounded-md"
-                  placeholder={`3. ${questions.Q3}`}
-                  onChange={e => handleFeedbackChange(index, 2, e.target.value)}
-                  disabled={isSubmitted}
-                />
+                {Object.entries(questions)
+                  .slice(0, 7)
+                  .map(([key, question], qIndex) => (
+                    <textarea
+                      key={key}
+                      className={`w-full p-3 mb-${qIndex === 2 ? '4' : '3'} border rounded-md`}
+                      placeholder={`${qIndex + 1}. ${question}`}
+                      onChange={e => handleFeedbackChange(index, qIndex, e.target.value)}
+                      disabled={isSubmitted}
+                    />
+                ))}
                 <div className="mb-6">
                   <label className="block font-semibold text-gray-700 mb-2">
                     4. {questions.Q4}:

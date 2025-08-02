@@ -1,5 +1,5 @@
 const sessionData =  {
-  "Artificial Intelligence And Machine Learning": {
+  "AI-ML": {
     "11.08.2025": [
       {
         "time": "10:00-11:30",
@@ -220,7 +220,7 @@ const sessionData =  {
       }
     ]
   },
-  "Computer Science": {
+  "CSE": {
     "11.08.2025": [
       {
         "time": "10:00-11:30",
@@ -441,7 +441,7 @@ const sessionData =  {
       }
     ]
   },
-  "Information Technology": {
+  "IT": {
     "11.08.2025": [
       {
         "time": "10:00-11:30",
@@ -678,7 +678,7 @@ const sessionData =  {
       }
     ]
   },
-  "Electronics and Communication": {
+  "ECE": {
     "11.08.2025": [
       {
         "time": "10:00-11:30",
@@ -915,7 +915,7 @@ const sessionData =  {
       }
     ]
   },
-  "Mechatronics": {
+  "MECHATRONICS": {
     "11.08.2025": [
       {
         "time": "10:00-11:30",
@@ -1152,7 +1152,7 @@ const sessionData =  {
       }
     ]
   },
-  "Electrical and Electronics": {
+  "EEE": {
     "11.08.2025": [
       {
         "time": "10:00-11:30",
@@ -1227,7 +1227,7 @@ const sessionData =  {
       }
     ]
   },
-  "Computer Science and Business Systems": {
+  "CSBS": {
     "11.08.2025": [
       {
         "time": "10:00-11:30",
@@ -1464,7 +1464,7 @@ const sessionData =  {
       }
     ]
   },
-  "Civil": {
+  "CIVIL": {
     "11.08.2025": [
       {
         "time": "10:00-11:30",
@@ -1701,7 +1701,7 @@ const sessionData =  {
       }
     ]
   },
-  "Mechanical": {
+  "MECH": {
     "11.08.2025": [
       {
         "time": "10:00-11:30",

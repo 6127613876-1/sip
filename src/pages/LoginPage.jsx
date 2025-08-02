@@ -10,7 +10,23 @@ export const LoginPage = () => {
     dept: '',
     day: ''
   });
-
+  const dayOptions = [
+  { label: "Day 1 - 05.08.2025", value: "Day 1" },
+  { label: "Day 2 - 06.08.2025", value: "Day 2" },
+  { label: "Day 3 - 07.08.2025", value: "Day 3" },
+  { label: "Day 4 - 08.08.2025", value: "Day 4" },
+  { label: "Day 5 - 09.08.2025", value: "Day 5" },
+  { label: "Day 6 - 10.08.2025", value: "Day 6" },
+  { label: "Day 7 - 11.08.2025", value: "Day 7" },
+  { label: "Day 8 - 12.08.2025", value: "Day 8" },
+  { label: "Day 9 - 13.08.2025", value: "Day 9" },
+  { label: "Day 10 - 14.08.2025", value: "Day 10" },
+  { label: "Day 11 - 15.08.2025", value: "Day 11" },
+  { label: "Day 12 - 16.08.2025", value: "Day 12" },
+  { label: "Day 13 - 17.08.2025", value: "Day 13" },
+  { label: "Day 14 - 18.08.2025", value: "Day 14" },
+  { label: "Day 15 - 19.08.2025", value: "Day 15" }
+];
   // **FIX**: Check if user is already logged in. If so, redirect to dashboard.
   useEffect(() => {
     const storedUser = localStorage.getItem("user");
@@ -44,19 +60,29 @@ export const LoginPage = () => {
           <input className="w-full p-3 mb-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400" type="text" id="reg" placeholder="Register Number" required onChange={handleChange} />
           <select className="w-full p-3 mb-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400" id="dept" required onChange={handleChange} value={formData.dept}>
             <option value="">Select Department</option>
-            <option value="Computer Science">CSE</option>
-            <option value="Information Technology">IT</option>
-            <option value="Electronics and Communication">ECE</option>
-            <option value="Electrical and Electronics">EEE</option>
-            <option value="Mechanical">MECH</option>
-            <option value="Artificial Intelligence And Machine Learning">AIML</option>
-            <option value="Mechatronics">MECHATRONICS</option>
-            <option value="Computer Science and Business Systems">CSBS</option>
-            <option value="Civil">CIVIL</option>
+            <option value="CSE">CSE</option>
+            <option value="IT">IT</option>
+            <option value="ECE">ECE</option>
+            <option value="EEE">EEE</option>
+            <option value="MECH">MECH</option>
+            <option value="AI-ML">AIML</option>
+            <option value="MECHATRONICS">MECHATRONICS</option>
+            <option value="CSBS">CSBS</option>
+            <option value="CIVIL">CIVIL</option>
           </select>
-          <select className="w-full p-3 mb-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400" id="day" required onChange={handleChange} value={formData.day}>
+          <select
+            className="w-full p-3 mb-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
+            id="day"
+            required
+            onChange={handleChange}
+            value={formData.day}
+          >
             <option value="">Select Day</option>
-            {[...Array(15)].map((_, i) => <option key={i} value={`Day ${i + 1}`}>Day {i + 1}</option>)}
+            {dayOptions.map((option, i) => (
+              <option key={i} value={option.value}>
+                {option.label}
+              </option>
+            ))}
           </select>
           <button className="w-full bg-yellow-500 text-white font-bold p-3 rounded-lg cursor-pointer hover:bg-yellow-600 transition-colors" type="submit">Login</button>
         </form>
