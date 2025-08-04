@@ -1224,8 +1224,171 @@ const sessionData =  {
         "time": "02:30-04:00",
         "topic": "Universal Human Values (UHV)",
         "venue": "KK Auditorium"
+      },
+    ],
+      "18.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "Women Empowerment Cell/Internal Compliance Cell",
+        "speakers": "Ms. S. Selva Gomathy (Advocate, Human Rights Activist)",
+        "venue": "KK Auditorium",
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Explore TCE Campus",
+        "speakers": "Ar. G. Vaishali (Asst. Prof. Architecture)",
+        "venue": "TCE Campus",
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "AI & Beyond: Computational Intelligence",
+        "speakers": "Dr. P. Karthikeyan & Dr. A. M. Abirami (IT Dept)",
+        "venue": "KK Auditorium",
       }
+    ],
+    "19.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "Sports",
+        "speakers": "Dr. M Arun Prem (Physical Education Director)",
+        "venue": "Ground",
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls",
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "Foreign Language - An Insight",
+        "venue": "KK Auditorium",
+      }
+    ],
+    "20.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "Yoga - Art of Living",
+        "venue": "Indoor Stadium",
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Waste Management Awareness",
+        "speakers": "Dr. A. Ramalinga Chandra Sekar (Asst. Prof. Chemistry)",
+        "venue": "KK Auditorium",
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "Universal Human Values (UHV)",
+        "venue": "KK Auditorium",
+      }
+    ],
+    "21.08.2025": [
+      {
+        "time": "10:00-04:00",
+        "topic": "Keeladi - Local Visit",
+        "venue": "Keeladi",
+      }
+    ],
+    "22.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "Tamil Literature on Nanotechnology",
+        "speakers": "Dr. M. Mahendran (Prof. & Head of Physics)",
+        "venue": "KK Auditorium",
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Real World Engineering through Mathematics",
+        "speakers": "Dr. S. Jeyabharathi (Prof. & Head of Mathematics)",
+        "venue": "KK Auditorium",
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "Science for Engineers",
+        "speakers": "Dr. M. Kottaisamy (Prof. & Head of Chemistry)",
+        "venue": "KK Auditorium",
+      }
+    ],
+    "25.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "Scientific Concepts in Tamil Literature",
+        "speakers": "Dr. G. Balaji (Dean - Students)",
+        "venue": "KK Auditorium",
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Diagnostic Test - Mathematics",
+        "venue": "Lab (as per schedule)",
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls",
+      }
+    ],
+    "26.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "Language Matters",
+        "speakers": "Dr. A. Tamilselvi (Prof. in English)",
+        "venue": "KK Auditorium",
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "Universal Human Values (UHV)",
+        "venue": "B Halls",
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "NSS/NCC/YRC/Sports/Rotaract",
+        "speakers": "Dr. S. Prasanna (Associate Dean - ECA)",
+        "venue": "KS Auditorium",
+      }
+    ],
+    "28.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "Technical Club Registration",
+        "venue": "B Halls",
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "தமிழ் மரபில் கல்வியும் ஞானமும்",
+        "speakers": "கு. ஞானசாம்பந்தன்",
+        "venue": "KK Auditorium",
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "Creative Arts",
+        "venue": "Multipurpose Hall, Architecture",
+      }
+    ],
+    "29.08.2025": [
+      {
+        "time": "10:00-11:30",
+        "topic": "TRIZ",
+        "speakers": "Dr. S. Baskar (Dean - Academics)",
+        "venue": "KK Auditorium",
+      },
+      {
+        "time": "12:00-01:30",
+        "topic": "SADAS Debate Club",
+        "speakers": "Dr. G Jeya Jeevakani (Asst. Prof. in English)",
+        "venue": "KK Auditorium",
+      },
+      {
+        "time": "02:30-04:00",
+        "topic": "Spotlight - Cultural Performances",
+        "venue": "Open Auditorium",
+      },
+      {
+        "time": "04:00-04:45",
+        "topic": "Feedback Session",
+        "venue": "Open Auditorium",
+      },
     ]
+    
   },
   "CSBS": {
     "11.08.2025": [
