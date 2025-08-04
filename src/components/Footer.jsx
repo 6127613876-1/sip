@@ -115,23 +115,22 @@ const Footer = () => {
 
   return (
     <footer className="bg-gray-900 text-gray-300 font-sans">
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* Column 1: Helpdesk Title */}
-          <div className="lg:col-span-2">
-            <h2 className="text-2xl font-bold text-white tracking-tight">
+
+          {/* Column 1: Helpdesk Title (Visually Elevated) */}
+          <div className="lg:col-span-2 bg-gray-800 p-6 rounded-xl shadow-md border border-indigo-500">
+            <h2 className="text-2xl font-bold text-indigo-300 tracking-tight">
               Helpdesk & Support
             </h2>
-            <p className="mt-4 text-gray-400 max-w-lg">
+            <p className="mt-4 text-gray-300 max-w-lg">
               Our team is available to assist you with any inquiries. Please feel free to reach out to us via email.
             </p>
           </div>
 
           {/* Column 2: Contact Links */}
           <div>
-            <h3 className="text-lg font-semibold text-white tracking-wider">
-              Contact Us
-            </h3>
+            <h3 className="text-lg font-semibold text-white tracking-wider">Contact Us</h3>
             <ul className="mt-4 space-y-4">
               {contacts.map((contact) => (
                 <li key={contact.email}>
@@ -161,19 +160,23 @@ const Footer = () => {
               <li className="text-base text-indigo-300 font-medium">Dharshini R</li>
               <li className="text-base text-indigo-300 font-medium">Ridhydharshinni T</li>
               <li className="text-base text-indigo-300">
-                Department of <span className="font-semibold text-white">Information Technology</span>
+                <span className="font-semibold text-white">Department of Information Technology</span>
               </li>
               <li className="pt-4 text-sm text-gray-400">
-                With guidance from <span className="text-white font-medium">C.V. Nisha Angeline,Assistant Professor</span>
+                With guidance from{' '}
+                <span className="text-white font-medium">
+                  C.V. Nisha Angeline, Assistant Professor
+                </span>
               </li>
               <li className="text-sm text-gray-400">
-                Head of Department: <span className="text-white font-medium">Dr.C.Deisy</span>
+                Head of Department:{' '}
+                <span className="text-white font-medium">Dr. C. Deisy</span>
               </li>
             </ul>
           </div>
         </div>
 
-        {/* Bottom Border */}
+        {/* Bottom Line */}
         <div className="mt-12 border-t border-gray-800 pt-8">
           <p className="text-base text-gray-400 text-center">
             &copy; {new Date().getFullYear()} Thiagarajar College of Engineering. All rights reserved.
@@ -185,3 +188,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
