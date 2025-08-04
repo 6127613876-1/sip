@@ -399,6 +399,8 @@
 //     </div>
 //   );
 // };
+
+
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { api, questions } from '../api/feedbackApi';
@@ -455,6 +457,7 @@ export const DashboardPage = () => {
     }
   };
 
+  // Keeladi-specific questions
   const keeladiFeedbackQuestions = [
     "How would you rate your overall learning experience during the Keeladi visit?",
     "Did the trip enhance your understanding of ancient Tamil civilization and heritage?",
@@ -463,6 +466,7 @@ export const DashboardPage = () => {
     "Suggestions/Questions/Feedback"
   ];
 
+  // Test session questions
   const testFeedbackQuestions = [
     "Was the test content aligned with your academic level?",
     "Were the instructions for the test clear and easy to follow?",
@@ -474,35 +478,19 @@ export const DashboardPage = () => {
   return (
     <div className="max-w-4xl mx-auto p-6">
       <h1 className="text-2xl font-bold mb-6 text-center text-indigo-600">Session Feedback Dashboard</h1>
-      
+
       {sessions.map((session, index) => {
         const lowerTopic = session.topic.toLowerCase();
         let customQuestions = [];
 
-        // if (lowerTopic.includes("Keeladi - Local Visit")) {
-        //   customQuestions = keeladiFeedbackQuestions;
-        // } else if (lowerTopic.includes("Diagnostic Test - English/Library Session")) {
-        //   customQuestions = testFeedbackQuestions;
-        // } 
-        // else if (lowerTopic.includes("Diagnostic Test - Mathematics")) {
-        //   customQuestions = testFeedbackQuestions;
-        // } 
-        
-        // else {
-        //   customQuestions = Object.values(questions).slice(0, 7);
-        // }
-      if (lowerTopic.includes("keeladi - local visit")) {
-  customQuestions = keeladiFeedbackQuestions;
-} else if (lowerTopic.includes("diagnostic test - english/library session")) {
-  customQuestions = testFeedbackQuestions;
-} else if (lowerTopic.includes("diagnostic test - mathematics")) {
-  customQuestions = testFeedbackQuestions;
-} else {
-  customQuestions = Object.values(questions).slice(0, 7);
-}
-
-   
-
+        // Dynamically choose question set
+        if (lowerTopic.includes("keeladi")) {
+          customQuestions = keeladiFeedbackQuestions;
+        } else if (lowerTopic.includes("diagnostic test") || lowerTopic.includes("library session")) {
+          customQuestions = testFeedbackQuestions;
+        } else {
+          customQuestions = Object.values(questions).slice(0, 7);
+        }
 
         return (
           <div key={session.id} className="mb-10 border p-4 rounded-lg shadow">
@@ -551,6 +539,4 @@ export const DashboardPage = () => {
     </div>
   );
 };
-
-
 
