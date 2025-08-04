@@ -11,23 +11,48 @@ export const LoginPage = () => {
     dept: '',
     day: ''
   });
+//   const dayOptions = [
+//   { label: "Day 1 - 05.08.2025", value: "Day 1" },
+//   { label: "Day 2 - 06.08.2025", value: "Day 2" },
+//   { label: "Day 3 - 07.08.2025", value: "Day 3" },
+//   { label: "Day 4 - 08.08.2025", value: "Day 4" },
+//   { label: "Day 5 - 09.08.2025", value: "Day 5" },
+//   { label: "Day 6 - 10.08.2025", value: "Day 6" },
+//   { label: "Day 7 - 11.08.2025", value: "Day 7" },
+//   { label: "Day 8 - 12.08.2025", value: "Day 8" },
+//   { label: "Day 9 - 13.08.2025", value: "Day 9" },
+//   { label: "Day 10 - 14.08.2025", value: "Day 10" },
+//   { label: "Day 11 - 15.08.2025", value: "Day 11" },
+//   { label: "Day 12 - 16.08.2025", value: "Day 12" },
+//   { label: "Day 13 - 17.08.2025", value: "Day 13" },
+//   { label: "Day 14 - 18.08.2025", value: "Day 14" },
+//   { label: "Day 15 - 19.08.2025", value: "Day 15" }
+// ];
   const dayOptions = [
-  { label: "Day 1 - 05.08.2025", value: "Day 1" },
-  { label: "Day 2 - 06.08.2025", value: "Day 2" },
-  { label: "Day 3 - 07.08.2025", value: "Day 3" },
-  { label: "Day 4 - 08.08.2025", value: "Day 4" },
-  { label: "Day 5 - 09.08.2025", value: "Day 5" },
-  { label: "Day 6 - 10.08.2025", value: "Day 6" },
-  { label: "Day 7 - 11.08.2025", value: "Day 7" },
-  { label: "Day 8 - 12.08.2025", value: "Day 8" },
-  { label: "Day 9 - 13.08.2025", value: "Day 9" },
-  { label: "Day 10 - 14.08.2025", value: "Day 10" },
-  { label: "Day 11 - 15.08.2025", value: "Day 11" },
-  { label: "Day 12 - 16.08.2025", value: "Day 12" },
-  { label: "Day 13 - 17.08.2025", value: "Day 13" },
-  { label: "Day 14 - 18.08.2025", value: "Day 14" },
-  { label: "Day 15 - 19.08.2025", value: "Day 15" }
+  { label: "Day 1 - 11.08.2025", value: "Day 1" },  // Monday
+  { label: "Day 2 - 12.08.2025", value: "Day 2" },  // Tuesday
+  { label: "Day 3 - 13.08.2025", value: "Day 3" },  // Wednesday
+  { label: "Day 4 - 14.08.2025", value: "Day 4" },  // Thursday
+  // Skipping 15.08.2025 (Friday - Independence Day)
+  // Skipping 16.08.2025 (Saturday)
+  // Skipping 17.08.2025 (Sunday)
+  { label: "Day 5 - 18.08.2025", value: "Day 5" },  // Monday
+  { label: "Day 6 - 19.08.2025", value: "Day 6" },  // Tuesday
+  { label: "Day 7 - 20.08.2025", value: "Day 7" },  // Wednesday
+  { label: "Day 8 - 21.08.2025", value: "Day 8" },  // Thursday
+  { label: "Day 9 - 22.08.2025", value: "Day 9" },  // Friday
+  // Skipping 23.08.2025 (Saturday)
+  // Skipping 24.08.2025 (Sunday)
+  { label: "Day 10 - 25.08.2025", value: "Day 10" }, // Monday
+  { label: "Day 11 - 26.08.2025", value: "Day 11" }, // Tuesday
+  { label: "Day 12 - 27.08.2025", value: "Day 12" }, // Wednesday
+  { label: "Day 13 - 28.08.2025", value: "Day 13" }, // Thursday
+  { label: "Day 14 - 29.08.2025", value: "Day 14" }, // Friday
+  // Skipping 30.08.2025 (Saturday)
+  // Skipping 31.08.2025 (Sunday)
+  { label: "Day 15 - 01.09.2025", value: "Day 15" }  // Monday
 ];
+
   // **FIX**: Check if user is already logged in. If so, redirect to dashboard.
   useEffect(() => {
     const storedUser = localStorage.getItem("user");
