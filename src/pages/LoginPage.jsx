@@ -47,10 +47,7 @@ export const LoginPage = () => {
   { label: "Day 11 - 26.08.2025", value: "Day 11" }, // Tuesday
   { label: "Day 12 - 27.08.2025", value: "Day 12" }, // Wednesday
   { label: "Day 13 - 28.08.2025", value: "Day 13" }, // Thursday
-  { label: "Day 14 - 29.08.2025", value: "Day 14" }, // Friday
-  // Skipping 30.08.2025 (Saturday)
-  // Skipping 31.08.2025 (Sunday)
-  { label: "Day 15 - 01.09.2025", value: "Day 15" }  // Monday
+ 
 ];
 
   // **FIX**: Check if user is already logged in. If so, redirect to dashboard.
