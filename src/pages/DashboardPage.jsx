@@ -479,18 +479,30 @@ export const DashboardPage = () => {
         const lowerTopic = session.topic.toLowerCase();
         let customQuestions = [];
 
-        if (lowerTopic.includes("Keeladi - Local Visit")) {
-          customQuestions = keeladiFeedbackQuestions;
-        } else if (lowerTopic.includes("Diagnostic Test - English/Library Session")) {
-          customQuestions = testFeedbackQuestions;
-        } 
-        else if (lowerTopic.includes("Diagnostic Test - Mathematics")) {
-          customQuestions = testFeedbackQuestions;
-        } 
+        // if (lowerTopic.includes("Keeladi - Local Visit")) {
+        //   customQuestions = keeladiFeedbackQuestions;
+        // } else if (lowerTopic.includes("Diagnostic Test - English/Library Session")) {
+        //   customQuestions = testFeedbackQuestions;
+        // } 
+        // else if (lowerTopic.includes("Diagnostic Test - Mathematics")) {
+        //   customQuestions = testFeedbackQuestions;
+        // } 
         
-        else {
-          customQuestions = Object.values(questions).slice(0, 7);
-        }
+        // else {
+        //   customQuestions = Object.values(questions).slice(0, 7);
+        // }
+      if (lowerTopic.includes("keeladi - local visit")) {
+  customQuestions = keeladiFeedbackQuestions;
+} else if (lowerTopic.includes("diagnostic test - english/library session")) {
+  customQuestions = testFeedbackQuestions;
+} else if (lowerTopic.includes("diagnostic test - mathematics")) {
+  customQuestions = testFeedbackQuestions;
+} else {
+  customQuestions = Object.values(questions).slice(0, 7);
+}
+
+   
+
 
         return (
           <div key={session.id} className="mb-10 border p-4 rounded-lg shadow">
