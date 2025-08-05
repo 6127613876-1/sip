@@ -885,7 +885,7 @@ export const LoginPage = () => {
              {formData.dept && (
   <div className="mb-4 text-center">
     <a
-      href={`/schedules/${formData.dept}.png`}  // or .jpg if you use JPGs
+      href={`/schedules/${formData.dept}.jpg`}  // or .jpg if you use JPGs
       download
       className="inline-block bg-blue-500 text-white font-semibold px-5 py-2 rounded-lg hover:bg-blue-600 transition-colors"
     >
