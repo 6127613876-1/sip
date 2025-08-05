@@ -481,7 +481,21 @@ export const DashboardPage = () => {
         "Were the travel and logistical arrangements adequate and comfortable?",
         "Suggestions/Questions/Feedback"
       ];
-    } else if (topic.includes("diagnostic test") || topic.includes("test")) {
+    } 
+      else if (topic.includes("Feedback") ) {
+              customQuestions = [
+  "1. Which three sessions or activities did you find most impactful or engaging?",
+  "2. How would you rate the overall coordination and organization of the SIP program?",
+  "3. Were the basic amenities (seating, refreshments, transport, etc.) adequate throughout the program?",
+  "4. Was the sound system, session timing, and venue management handled effectively?",
+  "5. Which session(s) do you consider the best, and why?",
+  "6. With so many sessions across the 10-day schedule, which ones stood out or attracted you the most?",
+  "7. Please share your overall perspective on the SIP experience in a few sentences."
+              ];
+            } 
+    
+    
+    else if (topic.includes("diagnostic test") || topic.includes("test")) {
       customQuestions = [
         "Was the test content aligned with your academic level?",
         "Were the instructions for the test clear and easy to follow?",
