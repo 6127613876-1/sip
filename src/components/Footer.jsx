@@ -1,24 +1,24 @@
-// import React from 'react';
+import React from 'react';
 
-// // A simple Mail icon component using inline SVG
-// const MailIcon = ({ className }) => (
-//   <svg
-//     xmlns="http://www.w3.org/2000/svg"
-//     className={className}
-//     width="24"
-//     height="24"
-//     viewBox="0 0 24 24"
-//     strokeWidth="2"
-//     stroke="currentColor"
-//     fill="none"
-//     strokeLinecap="round"
-//     strokeLinejoin="round"
-//   >
-//     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-//     <rect x="3" y="5" width="18" height="14" rx="2" />
-//     <polyline points="3 7 12 13 21 7" />
-//   </svg>
-// );
+// A simple Mail icon component using inline SVG
+const MailIcon = ({ className }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    strokeWidth="2"
+    stroke="currentColor"
+    fill="none"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <rect x="3" y="5" width="18" height="14" rx="2" />
+    <polyline points="3 7 12 13 21 7" />
+  </svg>
+);
 
 // const Footer = () => {
 //   // Array of contacts to keep the code clean and scalable
@@ -292,4 +292,4 @@ const Footer = () => {
   );
 };
 
-
+ export default Footer;
