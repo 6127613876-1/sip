@@ -180,6 +180,28 @@ export const LoginPage = () => {
           Helpdesk & Support
         </a>
 
+         {/* Helpdesk Section - only title */}
+<div
+  id="helpdesk"
+  className="w-full overflow-hidden mt-5 mb-4 p-3 bg-yellow-100 rounded-lg shadow-lg"
+>
+  <div className="animate-marquee whitespace-nowrap text-center text-lg font-semibold text-yellow-800">
+    Thiagarajar College of Engineering • Welcome to the First Year Student Induction Programme 2025 • Wishing You a Great Learning Journey!
+  </div>
+</div>
+
+{/* Download Helpdesk PDF Button */}
+<a
+  href="" // or your GitHub raw link
+  download
+  className="mb-10 inline-block bg-yellow-500 text-white font-semibold px-5 py-3 rounded-lg hover:bg-yellow-600 transition-colors"
+>
+  Download Helpdesk Info
+</a>
+
+
+       
+
         {/* Logo and Heading */} 
         <img
           src="images/college_logo.png"
