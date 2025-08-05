@@ -257,6 +257,11 @@ export const LoginPage = () => {
             </button>
           </form>
         </div>
+       <div
+          id="helpdesk"
+          className="w-full max-w-3xl mt-10 mb-20 p-6 bg-gray-100 rounded-lg shadow-lg"
+        >
+        </div>
 
         {/* Footer */}
         <Footer />
