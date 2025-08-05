@@ -219,8 +219,7 @@ const Footer = () => {
        
       ],
     },
-
-            
+    
   ];
 
   return (
