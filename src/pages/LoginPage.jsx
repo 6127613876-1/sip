@@ -192,12 +192,13 @@ export const LoginPage = () => {
 
 {/* Download Helpdesk PDF Button */}
 <a
-  href="https://github.com/6127613876-1/sip/blob/main/HELP%20DESK%20INFO.docx" // or your GitHub raw link
+  href="/HELP DESK INFO.docx"
   download
-  className="mb-10 inline-block bg-yellow-500 text-white font-semibold px-5 py-3 rounded-lg hover:bg-yellow-600 transition-colors"
+  className="mt-4 inline-block bg-yellow-500 text-white font-semibold px-5 py-3 rounded-lg hover:bg-yellow-600 transition-colors"
 >
   Download Helpdesk Info
 </a>
+
 
 
        
