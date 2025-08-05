@@ -246,16 +246,7 @@ export const LoginPage = () => {
           Helpdesk & Support
         </a>
 
-        {/* Helpdesk Info Download */}
-{/*         <div id="helpdesk" className="w-full overflow-hidden mt-5 mb-4 p-3 bg-yellow-100 rounded-lg shadow-lg">
-          <a
-            href="/helpdesk-info.pdf"
-            download
-            className="mt-4 inline-block bg-yellow-500 text-white font-semibold px-5 py-3 rounded-lg hover:bg-yellow-600 transition-colors"
-          >
-            Download Helpdesk Info
-          </a>
-        </div> */}
+
 
         {/* Logo and Heading */}
         <img
