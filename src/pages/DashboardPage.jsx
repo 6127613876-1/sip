@@ -484,13 +484,11 @@ export const DashboardPage = () => {
     } 
       else if (topic.includes("Feedback Session") ) {
               customQuestions = [
-  "1. Which three sessions or activities did you find most impactful or engaging?",
+  "1.To what extent did the induction program help you feel confident, informed, and prepared to begin your academic journey at our institution? ",
   "2. How would you rate the overall coordination and organization of the SIP program?",
   "3. Were the basic amenities (seating, refreshments, transport, etc.) adequate throughout the program?",
   "4. Was the sound system, session timing, and venue management handled effectively?",
-  "5. Which session(s) do you consider the best, and why?",
-  "6. With so many sessions across the 10-day schedule, which ones stood out or attracted you the most?",
-  "7. Please share your overall perspective on the SIP experience in a few sentences."
+  "5. Please share your overall perspective on the SIP experience in a few sentences and which three sessions or activities did you find most impactful or engaging"
               ];
             } 
     
