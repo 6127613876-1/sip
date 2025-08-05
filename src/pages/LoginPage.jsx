@@ -180,16 +180,19 @@ export const LoginPage = () => {
           Helpdesk & Support
         </a>
 
-        {/* Logo and Heading */}
+        {/* Logo and Heading */} 
         <img
           src="images/college_logo.png"
           alt="College Logo"
           className="w-20 max-w-md h-auto mb-6 rounded-lg shadow-lg"
         />
         <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">
-                First Year Student Induction Programme - Feedback Portal
+                First Year Student Induction Programme  
         </h1>
-
+       
+         <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">
+                Feedback Portal
+        </h1>
         {/* Form */}
         <div className="w-full max-w-md bg-white rounded-lg shadow-xl p-8">
           <form onSubmit={handleSubmit}>
