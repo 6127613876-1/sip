@@ -110,7 +110,7 @@ const Footer = () => {
   const contacts = [
     { name: 'Dr. G. Jeya Jeevakani', email: 'gjjeng@tce.edu' },
     { name: 'H. Sri Vinodhini', email: 'srivinodhini@tce.edu' },
-    { name: 'C.V. Nisha Angeline', email: 'nishaangeline@gmail.com' },
+  
   ];
 
   return (
