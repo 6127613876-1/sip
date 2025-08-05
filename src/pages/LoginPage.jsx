@@ -192,7 +192,7 @@ export const LoginPage = () => {
 
 {/* Download Helpdesk PDF Button */}
 <a
-  href="/HELP DESK INFO.docx"
+  href="/helpdesk-info.pdf"
   download
   className="mt-4 inline-block bg-yellow-500 text-white font-semibold px-5 py-3 rounded-lg hover:bg-yellow-600 transition-colors"
 >
