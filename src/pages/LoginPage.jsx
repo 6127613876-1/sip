@@ -260,11 +260,14 @@ export const LoginPage = () => {
 
         {/* Helpdesk Section - only title */}
         <div
-          id="helpdesk"
-          className="w-full max-w-3x0.5 mt-5 mb-10 p-6 bg-gray-100 rounded-lg shadow-lg text-center"
-        >
-          <h2 className="text-2xl font-bold text-gray-800"></h2>
-        </div>
+  id="helpdesk"
+  className="w-full overflow-hidden mt-5 mb-10 p-3 bg-yellow-100 rounded-lg shadow-lg"
+>
+  <div className="animate-marquee whitespace-nowrap text-center text-lg font-semibold text-yellow-800">
+    Thiagarajar College of Engineering
+  </div>
+</div>
+
 
         {/* Footer */}
         <Footer />
