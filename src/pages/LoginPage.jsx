@@ -76,12 +76,12 @@ export const LoginPage = () => {
     <>
     <div className="min-h-screen  flex flex-col items-center justify-center p-4">
       <img src="images/college_logo.png" alt="College Logo" className="w-20 max-w-md h-auto mb-6 rounded-lg shadow-lg" />
-      <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">First Year SIP-Feedback Portal</h1>
+      <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">First Year Student Induction Programme-Feedback Portal</h1>
       <div className="w-full max-w-md bg-white rounded-lg shadow-xl p-8">
         <form onSubmit={handleSubmit}>
           <input className="w-full p-3 mb-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400" type="text" id="name" placeholder="Full Name" required onChange={handleChange} />
           <input className="w-full p-3 mb-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400" type="email" id="email" placeholder="Email ID" required onChange={handleChange} />
-          <input className="w-full p-3 mb-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400" type="text" id="reg" placeholder="Register Number" required onChange={handleChange} />
+          <input className="w-full p-3 mb-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400" type="text" id="reg" placeholder="Roll Number" required onChange={handleChange} />
           <select className="w-full p-3 mb-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400" id="dept" required onChange={handleChange} value={formData.dept}>
             <option value="">Select Department</option>
             <option value="CSE">CSE</option>
