@@ -17,5 +17,5 @@ html {
 .animate-marquee {
   display: inline-block;
   white-space: nowrap;
-  animation: marquee 10s linear infinite;
+  animation: marquee 5s linear infinite;
 }
