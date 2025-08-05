@@ -258,20 +258,6 @@ export const LoginPage = () => {
           </form>
         </div>
 
-        {/* Helpdesk & Support Section */}
-        <div
-          id="helpdesk"
-          className="w-full max-w-3xl mt-10 mb-20 p-6 bg-gray-100 rounded-lg shadow-lg"
-        >
-          <h2 className="text-2xl font-bold mb-4 text-gray-800">Helpdesk & Support</h2>
-          <p className="text-gray-700 mb-2">For any queries or technical issues related to the feedback portal:</p>
-          <ul className="text-gray-700 list-disc list-inside">
-            <li>Email: support@college.edu</li>
-            <li>Phone: +91-9876543210</li>
-            <li>Working hours: 9:00 AM – 5:00 PM (Mon–Fri)</li>
-          </ul>
-        </div>
-
         {/* Footer */}
         <Footer />
       </div>
