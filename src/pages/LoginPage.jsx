@@ -264,7 +264,7 @@ export const LoginPage = () => {
   className="w-full overflow-hidden mt-5 mb-10 p-3 bg-yellow-100 rounded-lg shadow-lg"
 >
   <div className="animate-marquee whitespace-nowrap text-center text-lg font-semibold text-yellow-800">
-    Thiagarajar College of Engineering
+    Thiagarajar College of Engineering • Welcome to the First Year Student Induction Programme 2025 • Wishing You a Great Learning Journey!
   </div>
 </div>
 
