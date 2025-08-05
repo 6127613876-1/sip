@@ -186,11 +186,11 @@ export const LoginPage = () => {
           alt="College Logo"
           className="w-20 max-w-md h-auto mb-6 rounded-lg shadow-lg"
         />
-        <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">
+        <h1 className="text-3xl font-bold text-center text-gray-800 mb-8">
                 First Year Student Induction Programme  
         </h1>
        
-         <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">
+         <h1 className="text-3xl font-bold text-center text-gray-800 mb-8">
                 Feedback Portal
         </h1>
         {/* Form */}
