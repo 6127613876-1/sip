@@ -187,7 +187,7 @@ export const LoginPage = () => {
           className="w-20 max-w-md h-auto mb-6 rounded-lg shadow-lg"
         />
         <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">
-          First Year Student Induction Programme - Feedback Portal
+                First Year Student Induction Programme - Feedback Portal
         </h1>
 
         {/* Form */}
@@ -261,9 +261,9 @@ export const LoginPage = () => {
         {/* Helpdesk Section - only title */}
         <div
           id="helpdesk"
-          className="w-full max-w-3xl mt-10 mb-20 p-6 bg-gray-100 rounded-lg shadow-lg text-center"
+          className="w-full max-w-3x0.5 mt-5 mb-10 p-6 bg-gray-100 rounded-lg shadow-lg text-center"
         >
-          <h2 className="text-2xl font-bold text-gray-800">Helpdesk & Support</h2>
+          <h2 className="text-2xl font-bold text-gray-800"></h2>
         </div>
 
         {/* Footer */}
