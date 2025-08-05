@@ -247,7 +247,7 @@ export const LoginPage = () => {
         </a>
 
         {/* Helpdesk Info Download */}
-        <div id="helpdesk" className="w-full overflow-hidden mt-5 mb-4 p-3 bg-yellow-100 rounded-lg shadow-lg">
+{/*         <div id="helpdesk" className="w-full overflow-hidden mt-5 mb-4 p-3 bg-yellow-100 rounded-lg shadow-lg">
           <a
             href="/helpdesk-info.pdf"
             download
@@ -255,7 +255,7 @@ export const LoginPage = () => {
           >
             Download Helpdesk Info
           </a>
-        </div>
+        </div> */}
 
         {/* Logo and Heading */}
         <img
