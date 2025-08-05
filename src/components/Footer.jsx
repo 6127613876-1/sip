@@ -164,14 +164,13 @@ const Footer = () => {
               </li>
               <li className="pt-4 text-sm text-gray-400">
                 With guidance from{' '}
+                Head of Department:{' '}
+                <span className="text-white font-medium">Dr. C. Deisy</span>
                 <span className="text-white font-medium">
                   C.V. Nisha Angeline, Assistant Professor
                 </span>
               </li>
-              <li className="text-sm text-gray-400">
-                Head of Department:{' '}
-                <span className="text-white font-medium">Dr. C. Deisy</span>
-              </li>
+             
             </ul>
           </div>
         </div>
