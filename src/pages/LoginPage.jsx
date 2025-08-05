@@ -813,7 +813,7 @@ export const LoginPage = () => {
         />
 
         {/* Heading */}
-     <h1 className="text-3xl font-bold text-center mt-7 mb-2">
+     <h1 className="text-3xl font-bold text-center mt-4 mb-2">
   First Year Student Induction Programme
 </h1>
 <h2 className="text-3xl font-bold text-center mt-0 mb-4">
