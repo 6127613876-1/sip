@@ -622,12 +622,14 @@ export const LoginPage = () => {
         />
 
         {/* Heading */}
-        <h1 className="text-3xl font-bold text-center text-gray-800 mb-2">
-          First Year Student Induction Programme
-        </h1>
-        <h2 className="text-2xl font-semibold text-center text-gray-700 mb-6">
-          Feedback Portal
-        </h2>
+      <h1 className="text-3xl font-bold text-center mt-10 mb-10">
+  First Year Student Feedback
+</h1>
+
+       <h1 className="text-3xl font-bold text-center mt-4 mb-4">
+  First Year Student Feedback
+</h1>
+
 
         {/* Form Container */}
         <div className="w-full max-w-md bg-white bg-opacity-90 backdrop-blur rounded-lg shadow-xl p-8">
