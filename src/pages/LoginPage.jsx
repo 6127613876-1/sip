@@ -442,7 +442,7 @@ export const LoginPage = () => {
         <h1 className="text-3xl font-bold text-center text-gray-800 mb-4">
           First Year Student Induction Programme
         </h1>
-        <h1 className="text-3xl font-bold text-center text-gray-800 mb-4">
+        <h1 className="text-3xl font-bold text-center text-gray-800 mb-2">
           Feedback Portal
         </h1>
 
