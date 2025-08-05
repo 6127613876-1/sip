@@ -9,7 +9,7 @@
 //     email: '',
 //     reg: '',
 //     dept: '',
-//     day: ''
+//     day: '' 
 //   });
 
 //   const dayOptions = [
