@@ -162,8 +162,7 @@ const Footer = () => {
               <li className="text-base text-indigo-300">
                 <span className="font-semibold text-white">Department of Information Technology</span>
               </li>
-             <li className="pt-4 text-sm text-gray-400">
-                       <li className="pt-4 text-sm text-gray-400">
+              <li className="pt-4 text-sm text-gray-400">
   With guidance from{' '}
   <span className="text-white font-medium">Dr. C. Deisy</span>, Head of Department, and{' '}
   <span className="text-white font-medium">C.V. Nisha Angeline</span>, Assistant Professor
