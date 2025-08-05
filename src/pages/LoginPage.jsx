@@ -119,7 +119,7 @@
 // };
 
 import { useState, useEffect } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import Footer from '../components/Footer';
 
 export const LoginPage = () => {
@@ -172,7 +172,7 @@ export const LoginPage = () => {
   return (
     <>
       <div className="min-h-screen flex flex-col items-center justify-center p-4 relative">
-        {/* Top-right Helpdesk Link */}
+        {/* Helpdesk Link */}
         <a
           href="#helpdesk"
           className="absolute top-4 right-4 text-yellow-600 hover:text-yellow-800 font-medium underline"
@@ -257,10 +257,13 @@ export const LoginPage = () => {
             </button>
           </form>
         </div>
-       <div
+
+        {/* Helpdesk Section - only title */}
+        <div
           id="helpdesk"
-          className="w-full max-w-3xl mt-10 mb-20 p-6 bg-gray-100 rounded-lg shadow-lg"
+          className="w-full max-w-3xl mt-10 mb-20 p-6 bg-gray-100 rounded-lg shadow-lg text-center"
         >
+          <h2 className="text-2xl font-bold text-gray-800">Helpdesk & Support</h2>
         </div>
 
         {/* Footer */}
@@ -269,4 +272,3 @@ export const LoginPage = () => {
     </>
   );
 };
-
