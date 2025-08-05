@@ -362,6 +362,12 @@ const Footer = () => {
             <p className="mt-4 text-gray-300 max-w-lg">
               Our team is available to assist you with any inquiries. Please feel free to reach out to us via email.
             </p>
+          <h3 className="text-xl font-semibold mb-4 text-gray-800">Help Desk – Escalation Procedure</h3>
+      <img
+        src="/images/helpdesk-escalation.png" // 👈 Place your image here in public/images folder
+        alt="Help Desk Escalation Table"
+        className="w-full max-w-4xl border border-gray-300 rounded shadow"
+      />
           </div>
 
           {/* Column 2: Contact Links */}
