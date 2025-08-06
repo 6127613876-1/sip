@@ -802,7 +802,7 @@ export const DashboardPage = () => {
         />
       </div>
       <h1 className="text-3xl sm:text-4xl font-bold text-center text-gray-800 mb-8">
-        First Year SIP - Feedback Portal
+        First Year Student Induction Programme - Feedback Portal
       </h1>
 
       <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-2xl p-6 sm:p-8">
