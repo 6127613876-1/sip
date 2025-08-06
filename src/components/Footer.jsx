@@ -401,7 +401,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold text-white tracking-wider">Developed By</h3>
             <ul className="mt-4 space-y-2">
               <li className="text-base text-indigo-300 font-medium">Dharshini R</li>
-              <li className="text-base text-indigo-300 font-medium">Ridhydharshinni T</li>
+              <li className="text-base text-indigo-300 font-medium">Ridhyadharshinni T</li>
               <li className="text-base text-indigo-300">
                 <span className="font-semibold text-white">Department of Information Technology</span>
               </li>
