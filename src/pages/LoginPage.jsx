@@ -809,7 +809,7 @@ export const LoginPage = () => {
         <img
           src="/images/college_logo.png"
           alt="College Logo"
-          className="w-20 h-auto mb-6 rounded-lg shadow-lg"
+          className="w-15 h-auto mb-4 rounded-lg shadow-lg"
         />
 
         {/* Heading */}
