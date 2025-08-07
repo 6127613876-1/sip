@@ -2107,7 +2107,8 @@
 
 
 
- const sessionData =  {
+
+const sessionData =    {
   "AI-ML": {
     "11.08.2025": [
       {
@@ -2737,8 +2738,7 @@
       {
         "time": "02:00 PM to 03:30 PM",
         "topic": "Tamil Literature on Nanotechnology ",
-        "speakers": "Dr. M. Mahendran 
-Professor & Head of Physics ",
+        "speakers": "Dr. M. Mahendran Professor & Head of Physics ",
         "venue": "Venue: KS Auditorium " 
       }
     ],
@@ -2758,8 +2758,7 @@ Professor & Head of Physics ",
       {
         "time": "02:00 PM to 03:30 PM",
         "topic": "Explore TCE ",
-        "speakers":"Ar. G. Vaishali 
-Assistant Professor in Architecture & Team",
+        "speakers":"Ar. G. Vaishali Assistant Professor in Architecture & Team",
         "venue": "TCE Campus" 
       }
     ],
@@ -2797,8 +2796,7 @@ Assistant Professor in Architecture & Team",
       },
       {
         "time": "02:00 PM to 03:30 PM",
-        "topic": "Student Grievances/ Scholarship/5S Practice/ 
-WEC/ Anti-Ragging/ Anti-Drug ",
+        "topic": "Student Grievances/ Scholarship/5S Practice/ WEC/ Anti-Ragging/ Anti-Drug ",
         "speakers":"Department Level Coordinators ",
         "venue": "IT Department" 
       }
@@ -3592,9 +3590,7 @@ WEC/ Anti-Ragging/ Anti-Drug ",
     "29.08.2025": [
       {
         "time": "09:15 AM to 10:45 AM",
-        "topic": "Student Grievances/ Scholarship/5S 
-Practice/ WEC/ Anti-Ragging/ Anti
-Drug ",
+        "topic": "Student Grievances/ Scholarship/5S Practice/ WEC/ Anti-Ragging/ AntiDrug ",
         "speakers": "Department Level Coordinators ",
         "venue": "EEE Department" 
       },
@@ -3845,8 +3841,7 @@ Drug ",
     "29.08.2025": [
       {
         "time": "09:15 AM to 10:45 AM",
-        "topic": "Coders Club/ Space Club/  
-AI Consortium/ Math Club ",
+        "topic": "Coders Club/ Space Club/  AI Consortium/ Math Club ",
         "speakers": "Coordinators",
         "venue": "KK Auditorium" 
       },
@@ -4259,10 +4254,8 @@ AI Consortium/ Math Club ",
       },
       {
         "time": "11:10 AM to 12:40 PM",
-        "topic": "Thirumoolar’s Scientific Perspective 
-on Quantum Computing ",
-"speakers":"Dr. M. Mahendran, 
-Professor & Head of Physics ",
+        "topic": "Thirumoolar’s Scientific Perspective on Quantum Computing ",
+        "speakers":"Dr. M. Mahendran, Professor & Head of Physics ",
         "venue": "KS Auditorium" 
       },
       {
@@ -4370,7 +4363,6 @@ Professor & Head of Physics ",
       }
     ]
   }
-}
-export default sessionData;
 
-// export default sessionData;
+} 
+export default sessionData;
