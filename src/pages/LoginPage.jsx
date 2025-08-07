@@ -1169,7 +1169,7 @@ export const LoginPage = () => {
     <option value="">Select Slot</option>
     {slotOptions[formData.dept].map((option, index) => (
       <option key={index} value={option.slot}>
-        {option.slot} - {option.faculty}
+        {option.slot} 
       </option>
     ))}
   </select>
