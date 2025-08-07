@@ -43,7 +43,7 @@
 //         "topic": "Kitchen Physics",
 //         "speakers": "Dr. M. Mahendran (Professor & Head of Physics)",
 //         "venue": "KK Auditorium"
-//       },
+//       }, 
 //       {
 //         "time": "02:30-04:00",
 //         "topic": "Real World Engineering through Mathematics",
