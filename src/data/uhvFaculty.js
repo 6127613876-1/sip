@@ -48,3 +48,4 @@ const uhvFacultyBySlot = {
 };
 
 export default uhvFacultyBySlot;
+
