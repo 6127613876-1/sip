@@ -1066,6 +1066,10 @@ export const DashboardPage = () => {
       toast.error("Failed to submit feedback. Please try again.");
     }
   };
+    const getMissingFeedbackCount = () => {
+    return sessions.filter(session => !submittedSessions[`${user.dept}-${user.day}-${session.topic}`]).length;
+  };
+
 
   if (!user) return null;
 
@@ -1112,6 +1116,17 @@ export const DashboardPage = () => {
           </div>
         </div>
 
+ <div className="mb-6">
+          {getMissingFeedbackCount() > 0 && (
+            <div className="flex items-center gap-2 text-red-500">
+              <FaExclamationCircle />
+              <span>{getMissingFeedbackCount()} missing feedback{getMissingFeedbackCount() > 1 ? "s" : ""} for today</span>
+            </div>
+          )}
+        </div>
+
+
+          
         <div>
           {sessions.length > 0 ? sessions.map((session, index) => {
             const topic = session.topic.toLowerCase();
