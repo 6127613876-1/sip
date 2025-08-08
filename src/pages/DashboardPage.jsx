@@ -941,6 +941,8 @@ import { StarRating } from '../components/StarRating';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import uhvFacultyBySlot from '../data/uhvFaculty';   
+import { FaExclamationCircle } from 'react-icons/fa'; // Import the icon for the warning
+
 
 export const DashboardPage = () => {
   const navigate = useNavigate();
