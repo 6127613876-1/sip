@@ -1264,7 +1264,7 @@ import { StarRating } from '../components/StarRating';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import uhvFacultyBySlot from '../data/uhvFaculty';  
-import { FaExclamationCircle } from 'react-icons/fa';  // Import the missing icon
+
 
 export const DashboardPage = () => {
   const navigate = useNavigate();
@@ -1439,7 +1439,7 @@ export const DashboardPage = () => {
             </button>
           </div>
         </div>
-
+{/* 
         <div className="mb-6">
           {getMissingFeedbackCount() > 0 && (
             <div className="flex items-center gap-2 text-red-500">
@@ -1447,7 +1447,7 @@ export const DashboardPage = () => {
               <span>{getMissingFeedbackCount()} missing feedback{getMissingFeedbackCount() > 1 ? "s" : ""} for today</span>
             </div>
           )}
-        </div>
+        </div> */}
 
         <div>
           {sessions.length > 0 ? sessions.map((session, index) => {
