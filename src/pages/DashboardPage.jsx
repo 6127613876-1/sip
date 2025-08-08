@@ -940,9 +940,8 @@ import { api, questions } from '../api/feedbackApi';
 import { StarRating } from '../components/StarRating';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import uhvFacultyBySlot from '../data/uhvFaculty';   
-import { FaExclamationCircle } from 'react-icons/fa'; // Import the icon for the warning
-
+import uhvFacultyBySlot from '../data/uhvFaculty';
+import { FaExclamationCircle } from 'react-icons/fa';
 
 export const DashboardPage = () => {
   const navigate = useNavigate();
@@ -955,17 +954,19 @@ export const DashboardPage = () => {
     return JSON.parse(saved);
   });
 
+  // Load user from localStorage first
   useEffect(() => {
     const storedUser = localStorage.getItem("user");
     if (!storedUser) {
       toast.error("No user data found. Redirecting...");
-      navigate('/');
+      setTimeout(() => navigate('/'), 1500);
       return;
     }
     const parsedUser = JSON.parse(storedUser);
     setUser(parsedUser);
   }, [navigate]);
 
+  // Load available days when dept is ready
   useEffect(() => {
     if (user?.dept) {
       const options = api.getAvailableDays(user.dept);
@@ -973,6 +974,7 @@ export const DashboardPage = () => {
     }
   }, [user?.dept]);
 
+  // Load sessions when dept + day are ready
   useEffect(() => {
     if (user?.dept && user?.day) {
       const userSessions = api.getSessionData(user.dept, user.day);
@@ -1000,7 +1002,6 @@ export const DashboardPage = () => {
 
   const submitFeedback = async (sessionIndex, session) => {
     const sessionKey = `${user.dept}-${user.day}-${session.topic}`;
-
     if (submittedSessions[sessionKey]) {
       toast.info("You have already submitted feedback for this session.");
       return;
@@ -1045,20 +1046,18 @@ export const DashboardPage = () => {
       const label = ratingTexts[(ratingVal || 0) - 1] || 'Not Rated';
       answers.push(label);
     }
-
     answers.push(feedback[`${sessionIndex}-${customQuestions.length - 1}`] || '');
 
     const feedbackData = {
       name: user.name,
       dept: user.dept,
       day: user.day,
-      slot: user.slot || "", // ✅ ensure slot is included in submission
+      slot: user.slot || "",
       session,
       answers
     };
 
     const result = await api.submitFeedback(feedbackData);
-
     if (result.status === "success") {
       toast.success("Feedback submitted successfully!");
       const updated = { ...submittedSessions, [sessionKey]: true };
@@ -1068,15 +1067,21 @@ export const DashboardPage = () => {
       toast.error("Failed to submit feedback. Please try again.");
     }
   };
-    const getMissingFeedbackCount = () => {
+
+  const getMissingFeedbackCount = () => {
     return sessions.filter(session => !submittedSessions[`${user.dept}-${user.day}-${session.topic}`]).length;
   };
 
-
-  if (!user) return null;
+  if (!user) {
+    return (
+      <div className="min-h-screen flex items-center justify-center text-lg font-semibold text-gray-700">
+        Loading user data...
+      </div>
+    );
+  }
 
   return (
-    <div className="min-h-screen items-center p-4 sm:p-8">
+    <div className="min-h-screen items-center p-4 sm:p-8 bg-gray-100">
       <ToastContainer />
       <div className="flex justify-center mb-6">
         <img
@@ -1092,7 +1097,7 @@ export const DashboardPage = () => {
       <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-2xl p-6 sm:p-8">
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
           <h2 className="text-2xl font-semibold text-gray-700">
-            Welcome {user.name} ({user.dept})
+            Welcome {user.name} ({user.dept}) {user.slot && `- Slot: ${user.slot}`}
           </h2>
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-2">
@@ -1118,7 +1123,7 @@ export const DashboardPage = () => {
           </div>
         </div>
 
- <div className="mb-6">
+        <div className="mb-6">
           {getMissingFeedbackCount() > 0 && (
             <div className="flex items-center gap-2 text-red-500">
               <FaExclamationCircle />
@@ -1127,8 +1132,6 @@ export const DashboardPage = () => {
           )}
         </div>
 
-
-          
         <div>
           {sessions.length > 0 ? sessions.map((session, index) => {
             const topic = session.topic.toLowerCase();
