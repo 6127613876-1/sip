@@ -1209,7 +1209,7 @@ export const DashboardPage = () => {
   );
 })}
  */}
- {customQuestions.map((question, qIndex) => {
+{/*  {customQuestions.map((question, qIndex) => {
   const isSuggestion = qIndex === customQuestions.length - 1;
   const isUHV = session.topic.toLowerCase().includes("universal human values");
   const isFacultyDropdown = isUHV && qIndex === 0;
@@ -1252,8 +1252,54 @@ export const DashboardPage = () => {
       )}
     </div>
   );
-})}
+})} */}
 
+{customQuestions.map((question, qIndex) => {
+  const isSuggestion = qIndex === customQuestions.length - 1;
+  const isUHV = session.topic.toLowerCase().includes("universal human values");
+  const isFacultyDropdown = isUHV && qIndex === 0;
+  const key = `${index}-${qIndex}`;
+
+  return (
+    <div key={key} className="mb-4">
+      <label className="block font-semibold text-gray-700 mb-2">
+        {qIndex + 1}. {question}
+      </label>
+
+      {isFacultyDropdown ? (
+        <select
+          className="w-full p-2 border rounded-md"
+          value={feedback[key] || ''}
+          onChange={e => handleFeedbackChange(index, qIndex, e.target.value)}
+          disabled={isSubmitted}
+        >
+          <option value="">Select Faculty</option>
+          {/* Check if the faculty array for the selected slot exists */}
+          {uhvFacultyBySlot[user.slot] && 
+            uhvFacultyBySlot[user.slot].map((facultyName, idx) => (
+              <option key={idx} value={facultyName}>
+                {facultyName}
+              </option>
+            ))
+          }
+        </select>
+      ) : isSuggestion ? (
+        <textarea
+          className="w-full p-3 border rounded-md"
+          placeholder="Your suggestions or feedback"
+          onChange={e => handleFeedbackChange(index, qIndex, e.target.value)}
+          disabled={isSubmitted}
+        />
+      ) : (
+        <StarRating
+          rating={feedback[key] || 0}
+          setRating={rating => handleFeedbackChange(index, qIndex, rating)}
+          disabled={isSubmitted}
+        />
+      )}
+    </div>
+  );
+})}
 
 
                
