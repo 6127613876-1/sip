@@ -936,12 +936,6 @@
 // };
 
 
-
-
-
-// final working code
-
-
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Footer from '../components/Footer';
@@ -1015,24 +1009,7 @@ export const LoginPage = () => {
     { label: "Day 12 - 27.08.2025", value: "Day 12" },
     { label: "Day 13 - 28.08.2025", value: "Day 13" }
   ];
-// added
-  const getCurrentDate = () => {
-    const today = new Date();
-    const day = today.getDate();
-    const month = today.getMonth() + 1; // Months are 0-indexed
-    const year = today.getFullYear();
-    return `Day ${day}`; // You can format this as needed based on the dayOptions values
-  };
 
-  const currentDate = getCurrentDate();
-
-  const filteredDayOptions = dayOptions.filter(option => {
-    const optionDate = option.value.split(' ')[1]; // Get the day part of "Day X"
-    return optionDate <= currentDate.split(' ')[1]; // Filter out future days
-  });
-//......
-
-       
   useEffect(() => {
     const storedUser = localStorage.getItem("user");
     if (storedUser) {
@@ -1059,7 +1036,7 @@ export const LoginPage = () => {
 
   return (
     <>
-      <div className="min-h-screen flex flex-col items-center justify-center p-4 relative bg-cover bg-center" style={{ backgroundImage: `url('/images/college_bg.jpeg')` }}>
+      <div className="min-h-screen flex flex-col items-center justify-center p-4 relative bg-cover bg-center" style={{ backgroundImage: url('/images/college_bg.jpeg') }}>
 
         {/* Helpdesk Link */}
         <a
@@ -1149,7 +1126,7 @@ export const LoginPage = () => {
              {formData.dept && (
   <div className="mb-4 text-center">
     <a
-      href={`/schedules/${formData.dept}.jpg`}  // or .jpg if you use JPGs
+      href={/schedules/${formData.dept}.jpg}  // or .jpg if you use JPGs
       download
       className="inline-block bg-blue-500 text-white font-semibold px-5 py-2 rounded-lg hover:bg-blue-600 transition-colors"
     >
@@ -1158,7 +1135,7 @@ export const LoginPage = () => {
   </div>
 )}
 
-{/*             {/* Day Dropdown */}
+            {/* Day Dropdown */}
             <select
               id="day"
               value={formData.day}
@@ -1172,28 +1149,7 @@ export const LoginPage = () => {
                   {option.label}
                 </option>
               ))}
-            </select> */}
-
-
-
-
-
-
-                 <select
-  id="day"
-  value={formData.day}
-  onChange={handleChange}
-  required
-  className="w-full p-3 mb-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
->
-  <option value="">Select Day</option>
-  {filteredDayOptions.map((option, i) => (
-    <option key={i} value={option.value}>
-      {option.label}
-    </option>
-  ))}
-</select>
-
+            </select>
 
          {/* Slot Dropdown */}
 {formData.dept && slotOptions[formData.dept] && (
@@ -1239,11 +1195,7 @@ export const LoginPage = () => {
       </div>
     </>
   );
-};
-
-
-
-
+};  
 
 
 
