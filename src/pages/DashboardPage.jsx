@@ -705,14 +705,16 @@ export const DashboardPage = () => {
 
     answers.push(feedback[`${sessionIndex}-${customQuestions.length - 1}`] || '');
 
-    const feedbackData = {
-      name: user.name,
-      dept: user.dept,
-      day: user.day,
-      slot: user.slot || "",
-      session,
-      answers
-    };
+   const feedbackData = {
+  name: user.name,
+  dept: user.dept,
+  day: user.day,
+  slot: user.slot || "",
+  session,
+  answers,
+  missingCount: missingCount[user.day] ?? 0 // send exact missing count
+};
+
 
     const result = await api.submitFeedback(feedbackData);
 
