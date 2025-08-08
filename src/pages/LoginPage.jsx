@@ -4,7 +4,7 @@
 
 // export const LoginPage = () => {
 //   const navigate = useNavigate();
-//   const [formData, setFormData] = useState({ 
+//   const [formData, setFormData] = useState({  
 //     name: '',
 //     email: '',
 //     reg: '',
