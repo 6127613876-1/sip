@@ -1148,19 +1148,35 @@ export const DashboardPage = () => {
                         {qIndex + 1}. {question}
                       </label>
                       {isSuggestion ? (
-                        <textarea
-                          className="w-full p-3 border rounded-md"
-                          placeholder="Your suggestions or feedback"
-                          onChange={e => handleFeedbackChange(index, qIndex, e.target.value)}
-                          disabled={isSubmitted}
-                        />
-                      ) : (
-                        <StarRating
-                          rating={feedback[key] || 0}
-                          setRating={rating => handleFeedbackChange(index, qIndex, rating)}
-                          disabled={isSubmitted}
-                        />
-                      )}
+  // Last question remains textarea
+  <textarea
+    className="w-full p-3 border rounded-md"
+    placeholder="Your suggestions or feedback"
+    onChange={e => handleFeedbackChange(index, qIndex, e.target.value)}
+    disabled={isSubmitted}
+  />
+) : topic.includes("universal human values") && qIndex === 0 ? (
+  // 🔹 First question in UHV sessions: Dropdown
+  <select
+    className="w-full p-3 border rounded-md"
+    onChange={e => handleFeedbackChange(index, qIndex, e.target.value)}
+    disabled={isSubmitted}
+    defaultValue=""
+  >
+    <option value="" disabled>Select Faculty</option>
+    {Object.values(uhvFacultyBySlot).map((faculty, idx) => (
+      <option key={idx} value={faculty}>{faculty}</option>
+    ))}
+  </select>
+) : (
+  // Star rating for other questions
+  <StarRating
+    rating={feedback[key] || 0}
+    setRating={rating => handleFeedbackChange(index, qIndex, rating)}
+    disabled={isSubmitted}
+  />
+)}
+
                     </div>
                   );
                 })} */}
