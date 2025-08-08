@@ -665,8 +665,9 @@ export const DashboardPage = () => {
     const topic = session.topic.toLowerCase();
     let customQuestions = [];
 
-    if (topic.includes("keeladi")) {
+    if (topic.includes("Universal Human Values")) {
       customQuestions = [
+        "Which faculty member conducted your session?"
         "How would you rate your overall learning experience during the Keeladi visit?",
         "Did the trip enhance your understanding of ancient Tamil civilization and heritage?",
         "Was the explanation at the site informative and engaging?",
