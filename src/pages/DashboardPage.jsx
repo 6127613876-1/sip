@@ -940,7 +940,7 @@ import { api, questions } from '../api/feedbackApi';
 import { StarRating } from '../components/StarRating';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import uhvFacultyBySlot from '../data/uhvFaculty'; // ✅ Added UHV faculty mapping
+import uhvFacultyBySlot from '../data/uhvFaculty';   
 
 export const DashboardPage = () => {
   const navigate = useNavigate();
