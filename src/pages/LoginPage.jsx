@@ -936,10 +936,13 @@
 // };
 
 
+
+
+
+
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Footer from '../components/Footer';
-
 
 const slotOptions = {
   "CIVIL": [
@@ -982,7 +985,6 @@ const slotOptions = {
   ]
 };
 
-
 export const LoginPage = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
@@ -991,7 +993,7 @@ export const LoginPage = () => {
     reg: '',
     dept: '',
     day: '',
-    slot:''
+    slot: ''
   });
 
   const dayOptions = [
@@ -1023,9 +1025,9 @@ export const LoginPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const { name, email, reg, dept, day } = formData;
+    const { name, email, reg, dept, day, slot } = formData;
 
-    if (!name || !email || !reg || !dept || !day||!slot) {
+    if (!name || !email || !reg || !dept || !day || !slot) {
       alert("Please fill out all fields.");
       return;
     }
@@ -1036,7 +1038,10 @@ export const LoginPage = () => {
 
   return (
     <>
-      <div className="min-h-screen flex flex-col items-center justify-center p-4 relative bg-cover bg-center" style={{ backgroundImage: url('/images/college_bg.jpeg') }}>
+      <div
+        className="min-h-screen flex flex-col items-center justify-center p-4 relative bg-cover bg-center"
+        style={{ backgroundImage: "url('/images/college_bg.jpeg')" }}
+      >
 
         {/* Helpdesk Link */}
         <a
@@ -1053,16 +1058,15 @@ export const LoginPage = () => {
           className="w-15 h-auto mb-4 rounded-lg shadow-lg"
         />
 
-        {/* Heading */}
-     <h1 className="text-2xl font-bold text-center mt-2 mb-2">
-  First Year Student Induction Programme
-</h1>
-<h2 className="text-2xl font-bold text-center mt-0 mb-4">
-  Feedback Portal
-</h2>
+        {/* Headings */}
+        <h1 className="text-2xl font-bold text-center mt-2 mb-2">
+          First Year Student Induction Programme 2025
+        </h1>
+        <h2 className="text-2xl font-bold text-center mt-0 mb-4">
+          Feedback Portal
+        </h2>
 
-
-        {/* Form Container */}
+        {/* Form */}
         <div className="w-full max-w-md bg-white bg-opacity-90 backdrop-blur rounded-lg shadow-xl p-8">
           <form onSubmit={handleSubmit}>
 
@@ -1096,7 +1100,7 @@ export const LoginPage = () => {
               className="w-full p-3 mb-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
             />
 
-            {/* Department Dropdown */}
+            {/* Department */}
             <select
               id="dept"
               value={formData.dept}
@@ -1105,37 +1109,34 @@ export const LoginPage = () => {
               className="w-full p-3 mb-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
             >
               <option value="">Select Department</option>
-              <option value="CSE">CSE</option>
-              <option value="IT">IT</option>
-              <option value="ECE">ECE</option>
-              <option value="EEE">EEE</option>
-              <option value="MECH">MECH</option>
-              <option value="AI-ML">AIML</option>
-              <option value="MECHATRONICS">MECHATRONICS</option>
-              <option value="CSBS">CSBS</option>
-              <option value="CIVIL">CIVIL</option>
+              {Object.keys(slotOptions).map((dept) => (
+                <option key={dept} value={dept}>
+                  {dept}
+                </option>
+              ))}
             </select>
 
-            {/* View selected department */}
+            {/* Department confirmation */}
             {formData.dept && (
               <div className="mb-4 text-center text-sm text-blue-700">
                 You selected: <strong>{formData.dept}</strong>
               </div>
             )}
 
-             {formData.dept && (
-  <div className="mb-4 text-center">
-    <a
-      href={/schedules/${formData.dept}.jpg}  // or .jpg if you use JPGs
-      download
-      className="inline-block bg-blue-500 text-white font-semibold px-5 py-2 rounded-lg hover:bg-blue-600 transition-colors"
-    >
-      View Schedule
-    </a>
-  </div>
-)}
+            {/* Schedule link */}
+            {formData.dept && (
+              <div className="mb-4 text-center">
+                <a
+                  href={`/schedules/${formData.dept}.jpg`}
+                  download
+                  className="inline-block bg-blue-500 text-white font-semibold px-5 py-2 rounded-lg hover:bg-blue-600 transition-colors"
+                >
+                  View Schedule
+                </a>
+              </div>
+            )}
 
-            {/* Day Dropdown */}
+            {/* Day */}
             <select
               id="day"
               value={formData.day}
@@ -1151,27 +1152,25 @@ export const LoginPage = () => {
               ))}
             </select>
 
-         {/* Slot Dropdown */}
-{formData.dept && slotOptions[formData.dept] && (
-  <select
-    id="slot"
-    value={formData.slot}
-    onChange={handleChange}
-    required
-    className="w-full p-3 mb-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-  >
-    <option value="">Select Slot</option>
-    {slotOptions[formData.dept].map((option, index) => (
-      <option key={index} value={option.slot}>
-        {option.slot} 
-      </option>
-    ))}
-  </select>
-)}
+            {/* Slot */}
+            {formData.dept && slotOptions[formData.dept] && (
+              <select
+                id="slot"
+                value={formData.slot}
+                onChange={handleChange}
+                required
+                className="w-full p-3 mb-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
+              >
+                <option value="">Select Slot</option>
+                {slotOptions[formData.dept].map((option, index) => (
+                  <option key={index} value={option.slot}>
+                    {option.slot}
+                  </option>
+                ))}
+              </select>
+            )}
 
-           
-
-                 
+            {/* Submit */}
             <button
               type="submit"
               className="w-full bg-yellow-500 text-white font-bold p-3 rounded-lg hover:bg-yellow-600 transition-colors"
@@ -1181,21 +1180,24 @@ export const LoginPage = () => {
           </form>
         </div>
 
-        {/* Marquee Section */}
+        {/* Marquee */}
         <div className="w-full overflow-hidden mt-6 mb-10 p-3 bg-yellow-100 rounded-lg shadow-lg">
           <div className="animate-marquee whitespace-nowrap text-center text-lg font-semibold text-yellow-800">
             Thiagarajar College of Engineering • Welcome to the First Year Student Induction Programme 2025 • Wishing You a Great Learning Journey!
           </div>
         </div>
 
-        {/* Helpdesk Footer Section */}
+        {/* Footer */}
         <div id="helpdesk" className="w-full">
           <Footer />
         </div>
       </div>
     </>
   );
-};  
+};
+
+
+
 
 
 
