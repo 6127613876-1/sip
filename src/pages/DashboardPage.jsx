@@ -92,14 +92,7 @@ export const DashboardPage = () => {
     let customQuestions = [];
 
     if (topic.includes("universal human values")) {
-      customQuestions = [
-        "Which faculty member conducted your session?",
-        "How would you rate your overall learning experience during the Keeladi visit?",
-        "Did the trip enhance your understanding of ancient Tamil civilization and heritage?",
-        "Was the explanation at the site informative and engaging?",
-        "Were the travel and logistical arrangements adequate and comfortable?",
-        "Suggestions/Questions/Feedback"
-      ];
+      customQuestions = Object.values(questions).slice(0, 7);
     } else if (topic.includes("feedback session")) {
       customQuestions = [
         "To what extent did the induction program help you feel confident, informed, and prepared to begin your academic journey at our institution?",
@@ -123,20 +116,22 @@ export const DashboardPage = () => {
     const ratingTexts = ["Poor", "Average", "Good", "Very Good", "Excellent"];
     const answers = [];
 
-    for (let qIndex = 0; qIndex < customQuestions.length - 1; qIndex++) {
+    for (let qIndex = 0; qIndex < customQuestions.length; qIndex++) {
       const isUHV = session.topic.toLowerCase().includes("universal human values");
       const isFacultyDropdown = isUHV && qIndex === 0;
+      const isSuggestion = qIndex === customQuestions.length - 1;
       const ratingVal = feedback[`${sessionIndex}-${qIndex}`];
 
       if (isFacultyDropdown) {
         answers.push(ratingVal || 'Not Selected');
-      } else {
+      } else if (isSuggestion) {
+        answers.push(ratingVal || '');
+      }
+      else {
         const label = ratingTexts[(ratingVal || 0) - 1] || 'Not Rated';
         answers.push(label);
       }
     }
-
-    answers.push(feedback[`${sessionIndex}-${customQuestions.length - 1}`] || '');
 
     const feedbackData = {
       name: user.name,
@@ -147,6 +142,8 @@ export const DashboardPage = () => {
       answers,
       missingCount: missingCount[user.day] ?? 0 // send exact missing count
     };
+
+    console.log("Submitting feedback:", feedbackData);
 
     const result = await api.submitFeedback(feedbackData);
 
