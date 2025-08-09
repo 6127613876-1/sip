@@ -263,7 +263,7 @@ export const DashboardPage = () => {
                   {session.topic} ({session.time})
                   {session.topic.toLowerCase().includes("universal human values") && user.slot && (
                     <span className="block text-sm text-gray-600 mt-1">
-                      Faculty Incharge: {uhvFacultyBySlot[user.slot.toUpperCase().trim()] || "Not Assigned"}
+                      Faculty Incharge: {uhvFacultyBySlot[user.slot?.toUpperCase().trim()] || "Not Assigned"}
                     </span>
                   )}
                 </h3>
@@ -290,8 +290,8 @@ export const DashboardPage = () => {
         >
           <option value="">Select Faculty</option>
           {/* Check if the faculty array for the selected slot exists */}
-          {uhvFacultyBySlot[user.slot.toUpperCase().trim()] && 
-            uhvFacultyBySlot[user.slot.toUpperCase().trim()].map((facultyName, idx) => (
+          {uhvFacultyBySlot[user.slot?.toUpperCase().trim()] && 
+            uhvFacultyBySlot[user.slot?.toUpperCase().trim()].map((facultyName, idx) => (
               <option key={idx} value={facultyName}>
                 {facultyName}
               </option>
