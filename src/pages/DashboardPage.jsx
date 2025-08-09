@@ -143,7 +143,6 @@ export const DashboardPage = () => {
       missingCount: missingCount[user.day] ?? 0 // send exact missing count
     };
 
-    console.log("Submitting feedback:", feedbackData);
 
     const result = await api.submitFeedback(feedbackData);
 
